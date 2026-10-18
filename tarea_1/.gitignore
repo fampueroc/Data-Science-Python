@@ -1,0 +1,25 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Claves y configuraciones privadas
+.env
+
+# Archivos pesados de modelos (> 100 MB que GitHub rechaza)
+modelo/*.safetensors
+modelo/*.bin
+modelo/*.pt
+modelo/*.onnx
+modelo/checkpoint-*/
+checkpoint-*/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
