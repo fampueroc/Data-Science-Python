@@ -1,0 +1,30 @@
+# Tarea 1 · versiones con las que se corrieron los notebooks y el dashboard (Python 3.12)
+# Instalar:  pip install -r requirements.txt
+# Si usas uv desde la raíz del repo:  uv sync --group scraping --group hf --group llm --group deploy
+
+# Scraping
+requests==2.34.2
+beautifulsoup4==4.13.5
+lxml==6.1.2
+
+# Datos y gráficos
+pandas==2.3.3
+numpy==2.3.5
+matplotlib==3.11.1
+seaborn==0.13.2
+plotly==7.0.0
+
+# Modelos
+scikit-learn==1.9.0
+joblib==1.6.0
+torch==2.13.0
+transformers==5.16.1
+accelerate==1.14.0
+sentence-transformers==6.0.1
+
+# Dashboard
+streamlit==1.62.0
+
+# Para ejecutar los notebooks
+jupyterlab==4.6.3
+ipykernel==7.3.0

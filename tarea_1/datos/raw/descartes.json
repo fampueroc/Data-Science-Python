@@ -1,0 +1,110 @@
+[
+ {
+  "url":"https:\/\/elcomercio.pe\/ecdata\/elecciones-municipales-2026-casi-mil-candidatos-limenos-cambiaron-de-camiseta-politica-rafael-lopez-aliaga-carlos-bruces-francis-allison-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"ecdata",
+  "motivo":"bajada ausente o demasiado corta"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/tecnologia\/ciencias\/salvia-messii-descubren-en-los-andes-peruanos-una-nueva-flor-y-la-bautizan-en-honor-a-lionel-messi-noticia\/",
+  "etiqueta_sitemap":"ciencia_tecnologia",
+  "seccion_url":"tecnologia",
+  "motivo":"URL repetida entre sitemaps"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/opinion\/columnistas\/como-entender-el-congreso-peruano-por-carlos-melendez-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"opinion",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/opinion\/columnistas\/empiecen-a-gobernar-por-federico-salazar-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"opinion",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/ecdata\/elecciones-2026-la-dispersion-del-voto-crecio-en-las-ultimas-elecciones-municipales-en-lima-metropolitana-cuantos-distritos-y-que-zonas-apoyaron-a-los-alcaldes-ganadores-rafael-lopez-aliaga-carlos-bruce-francis-allison-onpe-jne-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"ecdata",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/opinion\/columnistas\/amarrandola-chiva-por-diana-seminario-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"opinion",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/opinion\/columnistas\/si-no-es-por-el-fondo-al-menos-por-las-formas-por-jose-carlos-requena-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"opinion",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/opinion\/columnistas\/una-conferencia-legislativa-por-martin-hidalgo-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"opinion",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/opinion\/columnistas\/a-serenarse-senora-fujimori-por-juan-paredes-castro-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"opinion",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/elecciones\/avanza-pais-solicita-al-jne-que-realice-una-segunda-vuelta-para-la-alcaldia-de-lima-rafael-lopez-aliaga-francis-allison-elecciones-regionales-y-municipales-2026-ultimas-noticia\/",
+  "etiqueta_sitemap":"politica",
+  "seccion_url":"elecciones",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/ecdata\/como-se-distribuira-la-inversion-del-estado-para-enfrentar-desastres-durante-en-el-2027-noticia\/",
+  "etiqueta_sitemap":"economia",
+  "seccion_url":"ecdata",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/tecnologia\/ciencias\/salvia-messii-descubren-en-los-andes-peruanos-una-nueva-flor-y-la-bautizan-en-honor-a-lionel-messi-noticia\/",
+  "etiqueta_sitemap":"deportes",
+  "seccion_url":"tecnologia",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/ecdata\/ufc-contender-series-termino-con-dos-nuevos-peleadores-peruanos-en-ufc-es-el-mejor-momento-del-pais-en-la-compania-mma-peru-noticia\/",
+  "etiqueta_sitemap":"deportes",
+  "seccion_url":"ecdata",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/ruedas-tuercas\/automotriz\/tesla-roadster-elon-musk-presento-un-carro-electrico-que-puede-volar-y-acelerar-de-0-a-100-kmh-en-menos-de-1-segundo-noticia\/",
+  "etiqueta_sitemap":"ciencia_tecnologia",
+  "seccion_url":"ruedas-tuercas",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/bbc-news-mundo\/que-paso-con-el-experimento-de-bukele-de-convertir-a-el-salvador-en-el-pais-del-bitcoin-noticia\/",
+  "etiqueta_sitemap":"ciencia_tecnologia",
+  "seccion_url":"bbc-news-mundo",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/eldominical\/ciencia\/proyecto-tambo-el-ambicioso-plan-para-cazar-neutrinos-en-el-canon-del-colca-arequipa-noticia\/",
+  "etiqueta_sitemap":"ciencia_tecnologia",
+  "seccion_url":"eldominical",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/ruedas-tuercas\/automotriz\/se-carga-con-41-soles-en-la-casa-y-rinde-hasta-450-km-como-nos-fue-con-el-jaecoo-5-ev-100-electrico-en-el-trafico-limeno-noticia\/",
+  "etiqueta_sitemap":"ciencia_tecnologia",
+  "seccion_url":"ruedas-tuercas",
+  "motivo":"la nota vive en otra sección del diario"
+ },
+ {
+  "url":"https:\/\/elcomercio.pe\/bbc-news-mundo\/premian-con-el-nobel-de-quimica-a-dos-investigadores-que-revolucionaron-la-fabricacion-de-medicamentos-fragancias-y-nuevos-materiales-noticia\/",
+  "etiqueta_sitemap":"ciencia_tecnologia",
+  "seccion_url":"bbc-news-mundo",
+  "motivo":"la nota vive en otra sección del diario"
+ }
+]

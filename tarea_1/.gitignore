@@ -1,25 +1,29 @@
-# Entornos virtuales
+# Entornos y cachés
 venv/
 .venv/
 env/
-
-# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
 .ipynb_checkpoints/
 
-# Claves y configuraciones privadas
+# Secretos
 .env
 
-# Archivos pesados de modelos (> 100 MB que GitHub rechaza)
+# Pesos del modelo: BETO pesa ~400 MB y GitHub rechaza archivos de más de 100 MB.
+# Se regeneran corriendo 02_clasificacion.ipynb.
 modelo/*.safetensors
 modelo/*.bin
 modelo/*.pt
+modelo/*.pth
 modelo/*.onnx
 modelo/checkpoint-*/
+modelo/checkpoints/
+modelo/_tmp/
 checkpoint-*/
+training_args.bin
+# Excepción: el plan B del dashboard (TF-IDF, unos cientos de KB) sí se versiona
+!modelo/tfidf_logreg.joblib
 
-# Archivos temporales del sistema
+# Sistema
 .DS_Store
 Thumbs.db
