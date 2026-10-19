@@ -1,0 +1,126 @@
+{
+  "fecha_extraccion": "2026-10-18",
+  "n_noticias": 370,
+  "n_train": 259,
+  "n_val": 55,
+  "n_test": 56,
+  "categorias": [
+    "politica",
+    "economia",
+    "deportes",
+    "ciencia_tecnologia"
+  ],
+  "conteo_por_categoria": {
+    "politica": 97,
+    "economia": 93,
+    "deportes": 98,
+    "ciencia_tecnologia": 82
+  },
+  "acuerdo_seccion_vs_llm": 0.873,
+  "etiquetas_corregidas_a_mano": 10,
+  "modelo_desplegado": "BETO (dccuchile/bert-base-spanish-wwm-cased), fine-tuning, semilla 42",
+  "f1_test": 0.8736,
+  "acc_test": 0.875,
+  "f1_test_3_semillas": [
+    0.8736,
+    0.9055,
+    0.8569
+  ],
+  "comparacion": {
+    "0 · Subsección (trampa)": {
+      "f1_macro_test": 0.8923,
+      "accuracy_test": 0.8929,
+      "ms_por_titular": 0.0
+    },
+    "1 · Zero-shot XNLI": {
+      "f1_macro_test": 0.521,
+      "accuracy_test": 0.5893,
+      "ms_por_titular": 114.2
+    },
+    "2 · TF-IDF + LogReg": {
+      "f1_macro_test": 0.77,
+      "accuracy_test": 0.7679,
+      "ms_por_titular": 0.4
+    },
+    "3 · Embeddings e5 + LogReg": {
+      "f1_macro_test": 0.8975,
+      "accuracy_test": 0.8929,
+      "ms_por_titular": 14.8
+    },
+    "4 · LLM Qwen 1.5B zero-shot": {
+      "f1_macro_test": 0.7135,
+      "accuracy_test": 0.8929,
+      "ms_por_titular": null
+    },
+    "5 · BETO fine-tuned": {
+      "f1_macro_test": 0.8736,
+      "accuracy_test": 0.875,
+      "ms_por_titular": 29.6
+    }
+  },
+  "reporte_por_clase": {
+    "politica": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8,
+      "f1-score": 0.8275862068965517,
+      "support": 15.0
+    },
+    "economia": {
+      "precision": 0.8333333333333334,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.7692307692307693,
+      "support": 14.0
+    },
+    "deportes": {
+      "precision": 0.8823529411764706,
+      "recall": 1.0,
+      "f1-score": 0.9375,
+      "support": 15.0
+    },
+    "ciencia_tecnologia": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.96,
+      "support": 12.0
+    },
+    "accuracy": 0.875,
+    "macro avg": {
+      "precision": 0.873976513682396,
+      "recall": 0.8785714285714286,
+      "f1-score": 0.8735792440318302,
+      "support": 56.0
+    },
+    "weighted avg": {
+      "precision": 0.872071905685351,
+      "recall": 0.875,
+      "f1-score": 0.87081292629784,
+      "support": 56.0
+    }
+  },
+  "matriz_confusion": [
+    [
+      12,
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      10,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      15,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      12
+    ]
+  ]
+}
