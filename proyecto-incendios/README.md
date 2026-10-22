@@ -1,4 +1,4 @@
-# Reto A · Del foco de calor a la hectárea: midiendo el incendio de Abancay
+# Reto A · Del foco de calor a la hectárea: midiendo el incendio de Abancay (octubre de 2026)
 
 **Pregunta guía:** ¿cuánto territorio se quemó en octubre de 2026 en el incendio de Abancay (Apurímac), según imágenes
 Sentinel-2 y el índice dNBR?
