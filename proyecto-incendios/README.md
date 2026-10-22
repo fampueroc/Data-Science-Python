@@ -81,6 +81,8 @@ uv run jupyter lab                                     # abrir incendio_dnbr.ipy
   21 de octubre de 2026 (`data/firms_viirs_sudamerica_7d.csv`): con él el notebook da siempre el mismo resultado.
 - `presentacion.html` se abre con doble clic y se navega con las flechas ← →. Las cifras de las diapositivas se
   escribieron a partir de la salida del notebook; si algo cambia, hay que actualizarlas.
+- `dashboard.html` es una alternativa en una sola página (modo claro y oscuro, y los datos de los gráficos también en
+  tabla). Ambos archivos necesitan la carpeta `outputs/` al lado para mostrar las imágenes.
 
 ## 5. Estructura
 
@@ -88,6 +90,8 @@ uv run jupyter lab                                     # abrir incendio_dnbr.ipy
 proyecto-incendios/
 ├── incendio_dnbr.ipynb       # FIRMS, Sentinel-2, NBR/dNBR, hectáreas, WorldCover, mapas y hallazgos
 ├── presentacion.html         # 5 diapositivas para exponer
+├── dashboard.html            # alternativa: una página con 3 hallazgos, mapa, gráficos y limitaciones
+├── dashboard_compartible.html  # el mismo dashboard con las imágenes incrustadas (191 KB), sin depender de outputs/
 ├── data/
 │   ├── firms_viirs_sudamerica_7d.csv   # focos VIIRS de Sudamérica (descarga del 21-oct-2026)
 │   ├── focos_incendio.csv    # focos dentro de la zona de estudio

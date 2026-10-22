@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Del foco de calor a la hectárea: midiendo el incendio de Abancay (octubre de 2026)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7;  --surface: #fcfcfb;
+    --ink: #0b0b0b;  --ink2: #52514e;  --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7;  --border: rgba(11,11,11,.10);
+    --accent: #2a78d6; --gray-bar: #c3c2b7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page: #0d0d0d;  --surface: #1a1a19;
+      --ink: #f0efec;  --ink2: #c3c2b7;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10);
+      --accent: #3987e5; --gray-bar: #55544f;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page: #0d0d0d;  --surface: #1a1a19;
+    --ink: #f0efec;  --ink2: #c3c2b7;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10);
+    --accent: #3987e5; --gray-bar: #55544f;
+  }
+
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--page); color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.45; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 28px 24px 56px; }
+
+  header { display: flex; justify-content: space-between; gap: 24px; align-items: flex-start; margin-bottom: 22px; }
+  h1 { font-size: 1.55rem; line-height: 1.2; font-weight: 650; }
+  .sub { color: var(--ink2); margin-top: 6px; max-width: 78ch; }
+  button.tema { background: var(--surface); color: var(--ink2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 7px 12px; font: inherit; font-size: .85rem; cursor: pointer; white-space: nowrap; }
+  button.tema:hover { color: var(--ink); }
+
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+  .card h2 { font-size: .95rem; font-weight: 600; }
+  .card .nota { color: var(--ink2); font-size: .82rem; margin: 2px 0 10px; }
+
+  .kpis { display: grid; grid-template-columns: 1.35fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .kpi .etq { font-size: .78rem; color: var(--ink2); text-transform: uppercase; letter-spacing: .04em; }
+  .kpi .valor { font-size: 3.2rem; font-weight: 700; line-height: 1.05; margin: 6px 0 4px; }
+  .kpi.hero .valor { font-size: 4.6rem; color: var(--accent); }
+  .kpi .valor small { font-size: 1.3rem; font-weight: 500; color: var(--ink2); margin-left: 4px; }
+  .kpi .det { color: var(--ink2); font-size: .85rem; }
+
+  .contexto { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+  .ctx .v { font-size: 1.5rem; font-weight: 650; }
+  .ctx .t { font-size: .8rem; color: var(--ink2); }
+
+  .fila { display: grid; gap: 16px; margin-bottom: 16px; }
+  .fila.mapa { grid-template-columns: 1.7fr 1fr; }
+  .fila.tres { grid-template-columns: 1fr 1fr 1fr; }
+  .col { display: grid; gap: 16px; align-content: start; }
+  .card img { width: 100%; display: block; border-radius: 6px; }
+  a.img { display: block; }
+
+  svg { width: 100%; height: auto; display: block; overflow: visible; }
+  svg text { font-family: inherit; fill: var(--ink2); font-size: 11px; }
+  svg text.val { fill: var(--ink); font-weight: 600; font-size: 12px; }
+  svg text.etq { fill: var(--ink2); }
+  .b-accent { fill: var(--accent); }
+  .b-gray   { fill: var(--gray-bar); }
+  .grid { stroke: var(--grid); stroke-width: 1; }
+  .base { stroke: var(--axis); stroke-width: 1; }
+  .bar { cursor: default; outline: none; }
+  .bar:hover, .bar:focus { opacity: .82; }
+
+  table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); }
+  th { color: var(--ink2); font-weight: 600; font-size: .78rem; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+
+  ul.lim { list-style: none; padding: 0; font-size: .88rem; }
+  ul.lim li { padding: 8px 0 8px 18px; border-bottom: 1px solid var(--grid); position: relative; }
+  ul.lim li:last-child { border-bottom: 0; }
+  ul.lim li::before { content: ""; position: absolute; left: 0; top: 15px; width: 8px; height: 8px;
+    border-radius: 2px; background: var(--accent); }
+  ul.lim b { font-weight: 600; }
+
+  details { margin-top: 16px; }
+  details summary { cursor: pointer; color: var(--ink2); font-size: .9rem; }
+  details .tablas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 12px; }
+
+  .tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--surface);
+    padding: 6px 10px; border-radius: 6px; font-size: .8rem; max-width: 260px; opacity: 0;
+    transition: opacity .08s; z-index: 10; }
+  footer { color: var(--muted); font-size: .78rem; margin-top: 22px; }
+
+  @media (max-width: 980px) {
+    .kpis, .fila.mapa, .fila.tres, details .tablas { grid-template-columns: 1fr; }
+    .contexto { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <h1>Del foco de calor a la hectárea: midiendo el incendio de Abancay (octubre de 2026)</h1>
+      <p class="sub"><b>Pregunta:</b> ¿cuánto territorio se quemó en el incendio de Abancay (Apurímac), según imágenes
+        Sentinel-2 y el índice dNBR? Sentinel-2 del 13 al 18 de octubre de 2026 y focos NASA FIRMS del 14 al 19.</p>
+    </div>
+    <button class="tema" id="tema" type="button">Cambiar tema</button>
+  </header>
+
+  <!-- Tres hallazgos -->
+  <section class="kpis" aria-label="Tres hallazgos">
+    <div class="card kpi hero">
+      <div class="etq">Hallazgo 1 · Área quemada</div>
+      <div class="valor">500<small>ha</small></div>
+      <div class="det">12 503 píxeles de 20 m con dNBR ≥ 0.27, en tres cicatrices principales</div>
+    </div>
+    <div class="card kpi">
+      <div class="etq">Hallazgo 2 · Focos de calor</div>
+      <div class="valor">120</div>
+      <div class="det">focos VIIRS en la zona, del 14 al 19 de octubre</div>
+    </div>
+    <div class="card kpi">
+      <div class="etq">Hallazgo 3 · Cobertura</div>
+      <div class="valor">73<small>%</small></div>
+      <div class="det">del área quemada era pastizal (ESA WorldCover 2021)</div>
+    </div>
+  </section>
+
+  <section class="contexto" aria-label="Contexto">
+    <div class="card ctx"><div class="v">457 km²</div><div class="t">zona de estudio (369 km² sin nubes)</div></div>
+    <div class="card ctx"><div class="v">1.4 %</div><div class="t">de la zona válida quemada</div></div>
+    <div class="card ctx"><div class="v">0.36</div><div class="t">dNBR medio del área quemada</div></div>
+    <div class="card ctx"><div class="v">≥ 0.27</div><div class="t">umbral dNBR (USGS), fijado antes de ver el resultado</div></div>
+  </section>
+
+  <!-- Mapa + gráficos -->
+  <section class="fila mapa">
+    <div class="card">
+      <h2>Mapa del área quemada</h2>
+      <p class="nota">Naranja: píxeles con dNBR ≥ 0.27 a ≤ 1 km de un foco. Puntos celestes: focos VIIRS. Fondo: NBR posterior.</p>
+      <a class="img" href="outputs/mapa_area_quemada.png" target="_blank" rel="noopener">
+        <img src="outputs/mapa_area_quemada.png" alt="Mapa del área quemada en Abancay con focos VIIRS">
+      </a>
+    </div>
+    <div class="col">
+      <div class="card">
+        <h2>Focos de calor por día</h2>
+        <p class="nota">En gris, los 13 focos del 19 de octubre: posteriores a la imagen «después» (18 oct).</p>
+        <div id="g-focos"></div>
+      </div>
+      <div class="card">
+        <h2>Cobertura del área quemada</h2>
+        <p class="nota">% de los píxeles quemados por tipo de cobertura (WorldCover 2021).</p>
+        <div id="g-cobertura"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fila tres">
+    <div class="card">
+      <h2>El área depende del umbral</h2>
+      <p class="nota">Hectáreas quemadas según el umbral de dNBR. Resaltado: el umbral usado.</p>
+      <div id="g-umbral"></div>
+    </div>
+    <div class="card">
+      <h2>Imágenes Sentinel-2 usadas</h2>
+      <p class="nota">Fechas y nubosidad, reportadas antes de calcular.</p>
+      <table id="t-imagenes"></table>
+      <p class="nota" style="margin-top:12px">Zona de estudio: lon −72.60 a −72.38, lat −13.75 a −13.58.
+        La imagen del 20 de octubre tenía 93 % de nubes y no se pudo usar.</p>
+    </div>
+    <div class="card">
+      <h2>Limitaciones</h2>
+      <ul class="lim">
+        <li><b>Un foco no es un incendio:</b> 13 de los 120 focos son posteriores a la imagen del 18 oct y quedan a 0,5–2 km de lo mapeado.</li>
+        <li><b>Nubes:</b> 11 % de la zona nublada en la imagen posterior; 4 focos caen bajo nubes. El área puede estar subestimada.</li>
+        <li><b>Umbral y fechas:</b> con 0.10 serían 1 261 ha y con 0.44, 81 ha. Es una estimación satelital, no una medición en campo.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>NBR antes, NBR después y dNBR</h2>
+    <p class="nota">El dNBR (derecha) resalta lo que cambió entre el 13 y el 18 de octubre. La mancha oscura grande ya era oscura antes: no es parte de este incendio.</p>
+    <a class="img" href="outputs/nbr_antes_despues.png" target="_blank" rel="noopener">
+      <img src="outputs/nbr_antes_despues.png" alt="NBR antes, NBR después y dNBR">
+    </a>
+  </section>
+
+  <details class="card">
+    <summary>Ver los datos de los gráficos como tabla</summary>
+    <div class="tablas">
+      <table id="t-focos"></table>
+      <table id="t-cobertura"></table>
+      <table id="t-umbral"></table>
+    </div>
+  </details>
+
+  <footer>
+    Datos: NASA FIRMS (VIIRS), Sentinel-2 L2A y ESA WorldCover vía Microsoft Planetary Computer,
+    límites de <code>juaneladio/peru-geojson</code>. Cifras tomadas de <code>incendio_dnbr.ipynb</code> y
+    <code>outputs/resumen_incendio.csv</code>.
+  </footer>
+</div>
+
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+  // Cifras del análisis (incendio_dnbr.ipynb / outputs/resumen_incendio.csv)
+  const DATOS = {
+    focos: [
+      { etiqueta: "14 oct", valor: 38, tras: false }, { etiqueta: "15 oct", valor: 10, tras: false },
+      { etiqueta: "16 oct", valor: 44, tras: false }, { etiqueta: "17 oct", valor: 6,  tras: false },
+      { etiqueta: "18 oct", valor: 9,  tras: false }, { etiqueta: "19 oct", valor: 13, tras: true },
+    ],
+    cobertura: [
+      { etiqueta: "Pastizal", valor: 72.9 }, { etiqueta: "Bosque", valor: 19.8 }, { etiqueta: "Matorral", valor: 7.3 },
+    ],
+    umbral: [
+      { etiqueta: "≥ 0.10", valor: 1261, usado: false }, { etiqueta: "≥ 0.27", valor: 500, usado: true },
+      { etiqueta: "≥ 0.44", valor: 81, usado: false },
+    ],
+    imagenes: [
+      { periodo: "Antes",   fecha: "2026-10-13", escena: 0,  zona: 0.0,  sinDato: 6.0 },
+      { periodo: "Después", fecha: "2026-10-18", escena: 12, zona: 11.0, sinDato: 8.4 },
+    ],
+  };
+  const miles = n => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  const NS = "http://www.w3.org/2000/svg";
+  const tip = document.getElementById("tip");
+
+  function mostrarTip(ev, texto) {
+    tip.textContent = texto; tip.style.opacity = 1;
+    const x = ev.clientX ?? ev.target.getBoundingClientRect().left;
+    const y = ev.clientY ?? ev.target.getBoundingClientRect().top;
+    tip.style.left = (x + 12) + "px"; tip.style.top = (y - 34) + "px";
+  }
+  const ocultarTip = () => { tip.style.opacity = 0; };
+
+  function el(nombre, attrs, texto) {
+    const e = document.createElementNS(NS, nombre);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    if (texto !== undefined) e.textContent = texto;
+    return e;
+  }
+  // barra con el extremo de datos redondeado (4 px), anclada a la línea base
+  function barraV(x, yBase, w, h) {
+    const r = Math.min(4, h);
+    return `M${x},${yBase} L${x},${yBase - h + r} Q${x},${yBase - h} ${x + r},${yBase - h} ` +
+           `L${x + w - r},${yBase - h} Q${x + w},${yBase - h} ${x + w},${yBase - h + r} L${x + w},${yBase} Z`;
+  }
+  function barraH(x, y, w, h) {
+    const r = Math.min(4, w);
+    return `M${x},${y} L${x + w - r},${y} Q${x + w},${y} ${x + w},${y + r} L${x + w},${y + h - r} ` +
+           `Q${x + w},${y + h} ${x + w - r},${y + h} L${x},${y + h} Z`;
+  }
+  function interactiva(path, texto) {
+    path.classList.add("bar");
+    path.setAttribute("tabindex", "0");
+    path.setAttribute("aria-label", texto);
+    path.addEventListener("mousemove", ev => mostrarTip(ev, texto));
+    path.addEventListener("mouseleave", ocultarTip);
+    path.addEventListener("focus", ev => mostrarTip(ev, texto));
+    path.addEventListener("blur", ocultarTip);
+  }
+
+  // Columnas verticales: filas = [{etiqueta, valor, texto, gris}]
+  function columnas(idContenedor, filas, formato) {
+    const W = 420, H = 200, izq = 6, der = 6, arriba = 22, abajo = 26;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
+    const max = Math.max(...filas.map(f => f.valor)) * 1.12;
+    const yBase = H - abajo, alto = yBase - arriba;
+    [0.5, 1].forEach(t => svg.appendChild(el("line", { class: "grid", x1: izq, x2: W - der, y1: yBase - alto * t, y2: yBase - alto * t })));
+    const ranura = (W - izq - der) / filas.length, ancho = Math.min(46, ranura * 0.62);
+    filas.forEach((f, i) => {
+      const x = izq + ranura * i + (ranura - ancho) / 2, h = Math.max(2, alto * f.valor / max);
+      const p = el("path", { d: barraV(x, yBase, ancho, h), class: f.gris ? "b-gray" : "b-accent" });
+      interactiva(p, f.texto);
+      svg.appendChild(p);
+      svg.appendChild(el("text", { class: "val", x: x + ancho / 2, y: yBase - h - 6, "text-anchor": "middle" }, formato(f.valor)));
+      svg.appendChild(el("text", { class: "etq", x: x + ancho / 2, y: H - 8, "text-anchor": "middle" }, f.etiqueta));
+    });
+    svg.appendChild(el("line", { class: "base", x1: izq, x2: W - der, y1: yBase, y2: yBase }));
+    document.getElementById(idContenedor).appendChild(svg);
+  }
+
+  // Barras horizontales: filas = [{etiqueta, valor, texto}]
+  function barrasH(idContenedor, filas, formato, maxEje) {
+    const W = 420, filaH = 38, izq = 74, der = 56, H = filaH * filas.length + 6;
+    const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img" });
+    const max = maxEje || Math.max(...filas.map(f => f.valor));
+    svg.appendChild(el("line", { class: "base", x1: izq, x2: izq, y1: 0, y2: H }));
+    filas.forEach((f, i) => {
+      const y = i * filaH + 6, w = Math.max(3, (W - izq - der) * f.valor / max);
+      const p = el("path", { d: barraH(izq, y, w, filaH - 14), class: "b-accent" });
+      interactiva(p, f.texto);
+      svg.appendChild(p);
+      svg.appendChild(el("text", { class: "etq", x: izq - 8, y: y + (filaH - 14) / 2 + 4, "text-anchor": "end" }, f.etiqueta));
+      svg.appendChild(el("text", { class: "val", x: izq + w + 8, y: y + (filaH - 14) / 2 + 4 }, formato(f.valor)));
+    });
+    document.getElementById(idContenedor).appendChild(svg);
+  }
+
+  columnas("g-focos", DATOS.focos.map(f => ({
+    etiqueta: f.etiqueta, valor: f.valor, gris: f.tras,
+    texto: `${f.etiqueta}: ${f.valor} focos` + (f.tras ? " (posteriores a la imagen del 18 oct)" : ""),
+  })), v => v);
+
+  columnas("g-umbral", DATOS.umbral.map(u => ({
+    etiqueta: u.etiqueta, valor: u.valor, gris: !u.usado,
+    texto: `dNBR ${u.etiqueta}: ${miles(u.valor)} ha` + (u.usado ? " (umbral usado)" : ""),
+  })), v => miles(v) + " ha");
+
+  barrasH("g-cobertura", DATOS.cobertura.map(c => ({
+    etiqueta: c.etiqueta, valor: c.valor, texto: `${c.etiqueta}: ${c.valor.toFixed(1)} % del área quemada`,
+  })), v => v.toFixed(0) + " %", 100);
+
+  // Tablas
+  const fila = (celdas, th) => "<tr>" + celdas.map((c, i) =>
+    `<${th ? "th" : "td"}${i > 0 ? ' class="n"' : ""}>${c}</${th ? "th" : "td"}>`).join("") + "</tr>";
+  document.getElementById("t-imagenes").innerHTML =
+    fila(["Periodo", "Fecha", "Nubes escena", "Nubes zona"], true) +
+    DATOS.imagenes.map(i => fila([i.periodo, i.fecha, i.escena + " %", i.zona.toFixed(1) + " %"])).join("");
+  document.getElementById("t-focos").innerHTML =
+    fila(["Día", "Focos"], true) + DATOS.focos.map(f => fila([f.etiqueta + (f.tras ? " (tras imagen)" : ""), f.valor])).join("");
+  document.getElementById("t-cobertura").innerHTML =
+    fila(["Cobertura", "% área quemada"], true) + DATOS.cobertura.map(c => fila([c.etiqueta, c.valor.toFixed(1)])).join("");
+  document.getElementById("t-umbral").innerHTML =
+    fila(["Umbral dNBR", "Hectáreas"], true) + DATOS.umbral.map(u => fila([u.etiqueta + (u.usado ? " (usado)" : ""), miles(u.valor)])).join("");
+
+  // Tema claro/oscuro
+  const raiz = document.documentElement;
+  document.getElementById("tema").addEventListener("click", () => {
+    const oscuro = raiz.dataset.theme === "dark" ||
+      (!raiz.dataset.theme && matchMedia("(prefers-color-scheme: dark)").matches);
+    raiz.dataset.theme = oscuro ? "light" : "dark";
+  });
+</script>
+</body>
+</html>
