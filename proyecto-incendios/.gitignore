@@ -1,0 +1,2 @@
+# el .gitignore de la raíz ignora data/; aquí los datos del análisis sí se versionan
+!data/

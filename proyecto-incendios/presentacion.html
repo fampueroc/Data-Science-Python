@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Del foco de calor a la hectárea: midiendo el incendio de Abancay</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --fondo:#14202b; --texto:#f2f4f6; --suave:#a9b6c2; --acento:#ff6a00; --linea:#2c3d4d; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; background: var(--fondo); color: var(--texto);
+    font-family: "Segoe UI", system-ui, sans-serif; overflow: hidden; }
+  .slide { display: none; height: 100vh; padding: 5vh 7vw; flex-direction: column; justify-content: center; }
+  .slide.activa { display: flex; }
+  h1 { font-size: clamp(2.4rem, 5.5vw, 4.4rem); line-height: 1.1; margin-bottom: 3vh; }
+  h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: 3vh; color: var(--acento); }
+  p.pregunta { font-size: clamp(1.2rem, 2.4vw, 1.9rem); color: var(--suave); max-width: 58ch; line-height: 1.4; }
+  ul { list-style: none; padding: 0; font-size: clamp(1.05rem, 1.9vw, 1.5rem); line-height: 1.5; }
+  li { padding: 1.1vh 0 1.1vh 1.4em; position: relative; border-bottom: 1px solid var(--linea); }
+  li::before { content: "›"; color: var(--acento); position: absolute; left: 0; }
+  b { color: var(--acento); font-weight: 600; }
+  .flujo { margin-top: 3vh; padding: 1.6vh 1.4vw; background: #1b2b39; border-left: 4px solid var(--acento);
+    font-size: clamp(.95rem, 1.6vw, 1.25rem); color: var(--suave); }
+  .mapa { display: flex; gap: 3vw; align-items: center; height: 100%; }
+  .mapa img { max-height: 84vh; max-width: 62vw; border-radius: 4px; }
+  .mapa .grande { font-size: clamp(3rem, 8vw, 6.5rem); color: var(--acento); font-weight: 700; line-height: 1; }
+  .mapa .unidad { font-size: clamp(1.2rem, 2.4vw, 2rem); margin-bottom: 2vh; }
+  .mapa small { color: var(--suave); font-size: clamp(.85rem, 1.3vw, 1.05rem); line-height: 1.5; display: block; }
+  .cifras { display: flex; gap: 2.5vw; margin-top: 2vh; }
+  .cifra { flex: 1; border-top: 4px solid var(--acento); padding-top: 2vh; }
+  .cifra .n { font-size: clamp(3rem, 7.5vw, 6rem); font-weight: 700; line-height: 1; }
+  .cifra .t { margin-top: 1.5vh; font-size: clamp(1rem, 1.8vw, 1.4rem); color: var(--suave); line-height: 1.35; }
+  .pie { position: fixed; bottom: 2vh; right: 3vw; font-size: .85rem; color: var(--suave); }
+  .fuente { position: fixed; bottom: 2vh; left: 3vw; font-size: .8rem; color: #6e7f8d; }
+</style>
+</head>
+<body>
+
+<section class="slide activa">
+  <h1>Del foco de calor a la hectárea:<br>midiendo el incendio de Abancay</h1>
+  <p class="pregunta">¿Cuánto territorio se quemó en octubre de 2026 en el incendio de Abancay (Apurímac), según imágenes Sentinel-2 y el índice dNBR?</p>
+</section>
+
+<section class="slide">
+  <h2>Datos y método</h2>
+  <ul>
+    <li><b>NASA FIRMS (VIIRS):</b> 120 focos de calor en la zona, 14–19 oct 2026</li>
+    <li><b>Sentinel-2 L2A:</b> antes 13 oct (0 % nubes) · después 18 oct (12 % nubes)</li>
+    <li><b>ESA WorldCover 2021:</b> tipo de cobertura de lo quemado</li>
+    <li><b>Decisiones:</b> zona de 457 km² · umbral dNBR ≥ 0.27 · solo píxeles a ≤ 1 km de un foco</li>
+  </ul>
+  <div class="flujo">FIRMS → elegir incendio → Sentinel-2 antes/después → NBR → dNBR → máscara → hectáreas</div>
+</section>
+
+<section class="slide">
+  <div class="mapa">
+    <img src="outputs/mapa_area_quemada.png" alt="Mapa del área quemada">
+    <div>
+      <div class="grande">500</div>
+      <div class="unidad">ha quemadas</div>
+      <small>Abancay, Apurímac<br>dNBR ≥ 0.27<br>Sentinel-2: 13 → 18 oct 2026</small>
+    </div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Tres hallazgos</h2>
+  <div class="cifras">
+    <div class="cifra"><div class="n">500 ha</div><div class="t">de superficie quemada en tres cicatrices principales</div></div>
+    <div class="cifra"><div class="n">120</div><div class="t">focos de calor VIIRS en la zona, entre el 14 y el 19 de octubre</div></div>
+    <div class="cifra"><div class="n">73 %</div><div class="t">del área quemada era pastizal (20 % bosque, 7 % matorral)</div></div>
+  </div>
+</section>
+
+<section class="slide">
+  <h2>Limitaciones</h2>
+  <ul>
+    <li><b>Un foco no es un incendio:</b> 13 de los 120 focos son posteriores a la imagen del 18 oct y quedan a 0,5–2 km de lo mapeado</li>
+    <li><b>Nubes:</b> 11 % de la zona nublada en la imagen posterior; el área puede estar subestimada</li>
+    <li><b>Umbral:</b> con dNBR ≥ 0.10 serían 1 261 ha; con ≥ 0.44, 81 ha</li>
+    <li><b>Estimación satelital:</b> depende de las fechas elegidas, no es una medición en campo</li>
+  </ul>
+</section>
+
+<div class="fuente">NASA FIRMS · Sentinel-2 L2A · ESA WorldCover · Microsoft Planetary Computer</div>
+<div class="pie" id="pie"></div>
+
+<script>
+  const slides = document.querySelectorAll(".slide");
+  const pie = document.getElementById("pie");
+  let i = 0;
+  function mostrar(n) {
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach((s, k) => s.classList.toggle("activa", k === i));
+    pie.textContent = (i + 1) + " / " + slides.length + "  ·  ← →";
+  }
+  document.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight" || e.key === " ") mostrar(i + 1);
+    if (e.key === "ArrowLeft") mostrar(i - 1);
+  });
+  mostrar(0);
+</script>
+</body>
+</html>
