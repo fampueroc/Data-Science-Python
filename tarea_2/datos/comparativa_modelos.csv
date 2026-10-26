@@ -1,0 +1,6 @@
+modalidad,modelo,métrica,error,latencia,costo
+documentos,PaddleOCR 3.7 PP-OCRv6 (línea base),CER,0.5803393213572854,53.9 s/página,"CPU, ~0.5 GB de modelos, Apache 2.0"
+documentos,Tesseract 5.4 spa,CER,0.68812375249501,0.4 s/página,"CPU, 15 MB de modelo, Apache 2.0"
+audio,faster-whisper small (línea base),WER,0.2178060413354531,RTF 0.24,"CPU int8, ~0.5 GB, MIT"
+audio,faster-whisper large-v3-turbo,WER,0.2082670906200318,RTF 0.50,"CPU int8, ~1.6 GB, MIT"
+audio,Meta MMS-1b-all spa,WER,0.31319554848966613,RTF 0.39,"CPU fp32, ~3.9 GB, CC BY-NC 4.0"
