@@ -1,7 +1,7 @@
 # Tarea 2 · Voces y documentos peruanos: del archivo escaneado al texto buscable
 
 **Estudiante:** @fampueroc · **Curso:** Data Science con Python 2026 · **Fecha de extracción y evaluación:** 25 de octubre de 2026
-**Dashboard público:** *(enlace de Streamlit Community Cloud: se agrega al desplegar)*
+**Dashboard público:** https://voces-peruanas-fampueroc.streamlit.app/
 
 ## Pregunta
 
@@ -102,7 +102,7 @@ real (ver `evidencias_ia/`).
 Tarea 2 – Individual
 Fuentes: Wikimedia Commons / OpenSLR 73
 Estudiante: (nombre completo) (@fampueroc)
-Dashboard público (obligatorio): (enlace de Streamlit)
+Dashboard público (obligatorio): https://voces-peruanas-fampueroc.streamlit.app/
 Carpeta del trabajo: https://github.com/fampueroc/Data-Science-Python/tree/main/tarea_2
 Resultados Test: WER: 0.22 | CER: 0.58 | Acuerdo LLM-Humano: 15/20
 ```
