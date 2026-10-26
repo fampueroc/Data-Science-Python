@@ -1,0 +1,28 @@
+# Corpus original, salidas pesadas de OCR/ASR/LLM, diccionario privado de seudónimos
+# (se recuperan con corpus.py y los notebooks)
+datos/raw/
+# referencias manuales en bruto (pueden contener nombres reales); la versión seudonimizada va en texto_referencia
+datos/referencias/*.txt
+
+# Audio e imágenes crudas fuera de la muestra publicable
+*.mp3
+*.ogg
+*.opus
+*.wav
+!datos/ejemplos/*.wav
+*.tar.gz
+*.zip
+
+# Modelos y pesos (>100 MB o descargables)
+modelos/*.safetensors
+modelos/*.bin
+modelos/checkpoint-*/
+modelos/tessdata/
+.cache/
+
+# Entornos virtuales, temporales y checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/

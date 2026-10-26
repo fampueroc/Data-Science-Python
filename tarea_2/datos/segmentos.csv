@@ -1,0 +1,581 @@
+id,inicio,fin,texto,hablante
+clip_001,0.34,7.7,"Buenos días, aquí son las 10 y 28 y estoy con una señora que va a darme su opinión acerca del partido de hoy.",H1
+clip_001,8.44,9.72,¿Puede decirme su nombre por favor?,H1
+clip_001,10.3,11.38,[PERSONA_5].,H2
+clip_001,12.18,17.62,"Mucho gusto, yo soy [PERSONA_4], soy alumno de la Universidad Nacional Mayor de San Marcos",H1
+clip_001,17.62,21.52,y le voy a hacer estas preguntas acerca del partido de hoy.,H1
+clip_001,22.54,26.0,¿Qué expectativas tiene acerca de este partido?,H1
+clip_001,26.42,29.2,¿Quién piensa que va a atacar más o defender?,H1
+clip_001,29.2,33.85,"Bueno, esperamos que Perú ganemos, ¿no?",H2
+clip_001,35.84,38.78,Espero que Padula se eche goles.,H2
+clip_001,40.05,47.21,"Muy bien, la siguiente pregunta es acerca de ¿qué jugador piensa que va a ser más decisivo en este partido?",H1
+clip_001,53.27,59.76,"Muy bien, y la tercera pregunta es acerca de ¿cuál es el resultado que espera en este partido?",H1
+clip_001,60.1,61.62,¿Quién gana y a cuánto?,H1
+clip_001,62.36,62.9,¿Por cuánto?,H1
+clip_001,62.9,75.71,"Hay que esperar lo que Dios, primeramente es Dios, si perdemos también hay que esperar lo mejor,",H2
+clip_001,75.93,80.87,"porque están demostrando lo mejor que pueden nuestros jugadores, ¿no?",H2
+clip_001,81.23,85.25,"Muy bien, o sea, está diciendo que está esperando lo mínimo, ¿no?",H1
+clip_001,85.25,89.89,"No importa si ganemos 1 a 0 o perdamos, lo más importante es Dios.",H1
+clip_001,90.29,95.83,"Y la última pregunta, ¿qué piensa del fútbol como unión de masas?",H1
+clip_001,96.05,103.39,"Porque como puede ver, muy pronto en muchos locales va a haber muchas personas viendo este partido.",H1
+clip_001,103.39,104.47,¿Qué piensa acerca de ello?,H1
+clip_001,105.01,112.11,"Eso es una gente, ¿no?",H2
+clip_001,112.51,115.47,"De juntarse, o sea, tomar un...",H2
+clip_001,116.52,117.98,"Hacer barras, irse...",H2
+clip_001,118.52,122.46,"Tengo mirar, pues es lo que puedo hacer.",H2
+clip_001,122.62,124.08,Muchas gracias por su opinión.,H1
+clip_001,124.94,127.68,¿Un mensaje final que deseará?,H1
+clip_001,127.74,128.88,Que Perú gane.,H3
+clip_001,129.96,132.81,"Es todo lo que yo pienso, pues.",H2
+clip_001,133.43,134.63,Esperamos que ganemos.,H2
+clip_001,135.4,135.92,Muchas gracias.,H1
+clip_002,0.02,8.02,"Buenos días profesores y compañeros, hoy estoy cerca de aquí por mi casa y voy a hacer una entrevista acerca del fútbol como unión de masas.",H1
+clip_002,8.72,10.02,Estoy con las señoras...,H1
+clip_002,10.62,12.82,"[PERSONA_6], soy [PERSONA_7].",H2
+clip_002,13.4,19.86,"Muy bien, voy a comenzar con la primera pregunta y es, ¿qué expectativas tienen ante este partido?",H1
+clip_002,21.96,30.36,Que el afición se encuentra motivado para ganar este partido.,H3
+clip_002,30.36,31.9,¿Me puede decir su nombre?,H1
+clip_002,32.2,33.24,[PERSONA_6].,H3
+clip_002,34.03,47.59,"La expectativa que yo pienso es que acá, que el Perú va a dar todo por todo, todo su corazón va a entregar para que ganemos, para que ganemos para ir a las olimpiadas.",H2
+clip_002,48.46,48.92,Al mundial.,H1
+clip_002,49.08,49.48,Al mundial.,H2
+clip_002,49.9,51.02,¿Me puede decir este su nombre?,H1
+clip_002,51.36,52.18,[PERSONA_7].,H2
+clip_002,52.76,55.02,"Bien, sigo con la siguiente pregunta.",H1
+clip_002,56.52,60.04,¿Qué jugador piensa que va a ser el más determinante?,H1
+clip_002,60.04,63.26,"Antes de que diga su respuesta, dígame su nombre, por favor.",H1
+clip_002,63.56,64.66,[PERSONA_6].,H3
+clip_002,66.78,67.46,La padula.,H3
+clip_002,68.76,69.2,¿Por qué?,H1
+clip_002,69.6,79.09,Porque ha demostrado su fuerza y su garra para jugar y ha metido unos cuantos goles.,H3
+clip_002,80.77,83.37,"Muy bien, sigo con la siguiente señora.",H1
+clip_002,83.37,84.77,[PERSONA_7].,H2
+clip_002,84.99,87.83,"Para mí sería la padula con cueva, ¿no?",H2
+clip_002,87.83,89.49,Porque los dos han hecho un dúo.,H2
+clip_002,89.89,94.73,"Un dúo y la padula más que, para que demuestre que tiene el corazón más peruano que italiano.",H2
+clip_002,94.73,96.8,Muchas gracias.,H1
+clip_002,97.22,99.7,"Sigo con la siguiente, sigo con la pregunta.",H1
+clip_002,100.7,106.44,"Y antes de empezar con ella, puedo decir que han destacado a la padula más, ¿no?",H1
+clip_002,106.8,110.88,"Y la siguiente pregunta es, ¿cuál es el resultado de hoy?",H1
+clip_002,111.46,113.26,¿Cuál piensas que va a ser el resultado de hoy?,H1
+clip_002,115.26,117.24,"[PERSONA_6], 2-0.",H3
+clip_002,118.77,122.21,"Sigo con la siguiente señorita, señora.",H1
+clip_002,122.61,124.98,"[PERSONA_7], 2-0.",H2
+clip_002,125.12,126.08,Ojalá que sea 2-0.,H2
+clip_002,127.51,132.25,Veo que ambas han dicho el mismo resultado y esperemos que sea así.,H1
+clip_002,132.63,133.57,Y la última pregunta.,H1
+clip_002,135.06,142.16,¿Qué opina del fútbol acerca como factor de unión de masas?,H1
+clip_002,144.32,154.42,"[PERSONA_6], deporte, apasiona a todos los peruanos.",H3
+clip_002,154.42,156.86,Tanto como fuera del país también.,H3
+clip_002,157.88,165.08,"Y es un deporte que une a toda la familia, a todas las amistades en general.",H3
+clip_002,165.72,166.64,Muchas gracias.,H1
+clip_002,166.9,169.16,"Y ya finalizando, ¿su comentario final?",H1
+clip_002,169.66,170.72,[PERSONA_7].,H2
+clip_002,171.1,173.97,Hace que la gente se una.,H2
+clip_002,174.17,177.45,"No hay distinción de raza ni religión, ¿no?",H2
+clip_002,177.45,183.49,Por que todos sean unidos y que el deporte siga adelante.,H2
+clip_002,185.09,185.61,Gracias.,H2
+clip_002,185.61,186.77,Muchas gracias.,H1
+clip_002,186.97,188.51,Con esto termina la entrevista.,H1
+clip_003,0.05,8.37,bueno ahora estamos en los san martín entre fiestas patrias de julio entonces primero podría,H1
+clip_003,8.37,13.81,comenzar me diciéndome su nombre por favor mi nombre es [PERSONA_8] primera pregunta,H1
+clip_003,13.81,19.79,para usted para usted qué significa el perú bueno el perú es mi país donde he nacido amo,H1
+clip_003,19.79,28.25,mucho porque acá vivo tengo todo lo que necesito y adoro mi país en mi patria es un territorio,H1
+clip_003,28.25,34.07,donde nosotros vivimos por ejemplo yo soy de la selva central amo mi territorio porque de ahí,H1
+clip_003,34.07,41.37,vivo de ahí como tengo mi medicina mis plantas ancestrales tengo mi cultura y mi identidad,H1
+clip_003,41.37,47.21,también en qué momento diría usted que se dio cuenta de que era perdona que sintió que era,H1
+clip_003,47.21,54.41,peruana bueno creo que desde que he nacido siempre no nuestros padres nos han inculcado que siempre el,H1
+clip_003,54.41,62.63,28 de julio el día de la independencia no desde desde muy pequeños lo celebrábamos no solamente con,H1
+clip_003,62.63,68.27,alimentación sino que era nuestro perú y que nos compraban ropa nueva me acuerdo de pequeños una,H1
+clip_003,68.27,74.39,fiesta era una fiesta para nosotros no yo creo que eso se ha perdido un poco la tradición porque algunos,H1
+clip_003,74.39,80.81,nos compraban hasta juguetes también era como navidad y 28 de julio y nos compraban ropa no era,H1
+clip_003,80.81,87.59,hoy era la fiesta y que íbamos a los desfiles no en nuestra zona donde vivimos muy bonito pero creo,H1
+clip_003,87.59,92.76,que eso se ha perdido un poco y ahora cuál diría que son los aspectos positivos las características,H1
+clip_003,92.76,100.62,positivas del perú bueno de perú que ha crecido bastante se ha incrementado se ha incrementado hay,H1
+clip_003,100.62,107.92,hay muchas fuentes también ha cambiado bastante la tecnología ha crecido pero ha crecido las ciudades,H1
+clip_003,107.92,115.9,no solamente poblacional no sino en el aspecto social en el aspecto cultural en el aspecto indígena también,H1
+clip_003,115.9,121.36,muchos aspectos no y en el aspecto económico también no y ahora cuál diría que serían los aspectos,H1
+clip_003,121.36,128.54,negativos del perú bueno los aspectos negativos es que la corrupción y dentro de los gobiernos siempre,H1
+clip_003,128.54,135.94,ha habido este demasiada corrupción y no hay políticas para nosotros las mujeres indígenas no respetan los,H1
+clip_003,135.94,141.82,convenios las leyes las tenemos por gusto no los derechos también se nos vulneran los derechos a las,H1
+clip_003,141.82,147.28,mujeres los derechos sexuales y reproductivos invisibilizan el trabajo de nosotras mujeres,H1
+clip_003,147.28,154.48,no y no respetan a las personas como derecho como seres de derechos no porque dentro de las personas,H1
+clip_003,154.48,160.6,estamos las mujeres los hombres y los hermanos y hermanas del gtbi y son seres humanos y tienen,H1
+clip_003,160.6,167.98,derechos también y también hay mucho racismo no hemos perdido el racismo hay mucha gente que selecciona a las,H1
+clip_003,167.98,175.66,personas acaso cuando dios bueno yo soy católica cuando dios o cuando oramos dios dice tú eres blanco si te,H1
+clip_003,175.66,183.6,escucho tú eres negro pero eso no dios escucha porque somos seres humanos nada más él no ve ni el color ni el sexo ni la raza nada,H1
+clip_003,183.6,192.13,nada y por último qué mensaje le daría a las futuras generaciones de peruanos bueno ahora con esta,H1
+clip_003,192.13,200.27,tecnología los jóvenes no leen no hay mucha educación mucha falta de respeto a los padres yo creo que tienen,H1
+clip_003,200.27,206.99,que ser educados formados tiene que tener valores y de acuerdo a los ejemplos que tenemos de este índice,H1
+clip_003,206.99,212.69,índice de corrupción que hay en el perú que se ha estabilizado creo en la en los entes,H1
+clip_003,212.69,220.01,municipalidades gobiernos regionales en el mismo gobierno tienen que cambiar tienen que mejorarnos,H1
+clip_003,220.01,225.75,tiene que tenemos que tener generaciones nuevas por ejemplo nosotros como mujeres luchadoras queremos,H1
+clip_003,225.75,232.97,dejar generaciones que conozcan sus derechos que se hagan respetar no solamente el derecho a nuestro,H1
+clip_003,232.97,237.59,territorio donde vivimos sino el derecho a nuestro cuerpo no que nadie nos toque que nadie nos viola,H1
+clip_003,237.59,245.63,que nadie no haga abuso de nosotras y no nos maten tampoco muchas gracias la entrevista sigamos luchando,H1
+clip_004,0.0,5.46,"Bien, estamos en Plaza San Martín. Antes que nada, ¿me podría decir su nombre, por favor?",H1
+clip_004,6.72,14.58,Mi nombre es la señora [PERSONA_9]. Vengo desde el departamento de Apurímac en marcha en solidarizarnos con nuestro gobierno,H2
+clip_004,14.58,21.12,y pedimos que cierren el Congreso contra esos congresistas que no trabajan para su pueblo.,H2
+clip_004,21.4,27.2,Queremos que se retiren ya del Congreso. Queremos que deje a nuestro gobierno gobernar.,H2
+clip_004,27.2,30.84,"Quisiera hacer una pregunta. Para usted, ¿qué significa el Perú?",H1
+clip_004,31.37,37.85,"El Perú es una patria grande, donde todos los peruanos acá somos parte de eso.",H2
+clip_004,38.45,48.13,"Y nuestro Perú no debe ser así. Estropeado, pisado por gentes que no sirven a su pueblo.",H2
+clip_004,48.13,58.78,"Perú es un país grande, rico en minería, en alimento. Todos somos ricos y por lo tanto somos parte del Perú.",H2
+clip_004,59.58,65.08,"Y lo amamos y lo queremos y por eso estamos hoy en marcha de todas nuestras provincias,",H2
+clip_004,65.48,73.84,"aquí en Abanca, especialmente las mujeres, que hemos venido a hacer un pronunciamiento acá a nuestros gobernadores.",H2
+clip_004,73.84,79.82,"Y una pregunta, ¿usted en qué momento sintió por primera vez, en qué momento descubrió que usted era peruana?",H1
+clip_004,81.12,88.96,"Yo, desde muy pequeña, mi padre ha sido un gran político, siempre nos ha hablado bastante de nuestro Perú,",H2
+clip_004,89.06,94.3,"de sentirnos, de amarnos y creer, incluso él decía, hay que estudiar.",H2
+clip_004,94.3,101.0,¿Para qué? Para servir a nuestra patria. Mi padre era un hombre que le gustaba compartir.,H2
+clip_004,101.62,106.16,Era peruano porque se sentía peruano y todas las riquezas eran para todos.,H2
+clip_004,106.62,111.86,"No ha sido un hombre egoísta, ha sido un hombre de bien, lo cual nos ha inculcado desde muy niños,",H2
+clip_004,112.42,114.82,amar y a querer y a compartir. Gracias.,H2
+clip_004,115.66,118.02,¿Y qué aspectos positivos diría que tiene el Perú?,H1
+clip_004,118.7,118.96,¿Cómo?,H2
+clip_004,119.24,121.16,¿Qué aspectos positivos diría que tiene el Perú?,H1
+clip_004,121.16,125.44,"Uy, el Perú tiene muchos aspectos positivos, ¿no?",H2
+clip_004,125.6,131.16,"Es otras cosas que a veces nuestras autoridades no lo ven por ese lado, ¿no?",H2
+clip_004,131.38,137.12,"Entonces, positivamente tenemos nosotros mucho en lo social, que podemos trabajar,",H2
+clip_004,137.76,141.1,"en lo cultural, en la agricultura, en todo.",H2
+clip_004,141.1,152.61,"Hay posibilidades positivas, pero a veces las autoridades lo ven negativo, lo ven la parte de lucrarse cada uno.",H2
+clip_004,153.51,156.27,¿Y ahora qué características negativas diría que tiene el Perú?,H1
+clip_004,157.05,163.23,"Uy, tenemos a lo menos características respecto a nuestros gobernantes que son egoístas.",H2
+clip_004,164.31,168.63,"Solo todos jalan para ellos, se lucran para ellos, no trabajan para el pueblo.",H2
+clip_004,168.63,170.77,Eso sería un aspecto negativo.,H2
+clip_004,170.77,174.21,"Y por último, ¿qué mensaje usted le daría a las futuras generaciones de peruanos?",H1
+clip_004,174.81,180.59,"Pucha, yo les diría a los jóvenes como usted, a los peruanos como usted,",H2
+clip_004,181.09,184.99,"ahora ya no es como antes, que teníamos una radio,",H2
+clip_004,185.23,189.87,"pero ahora ustedes tienen esa potencia, esta tecnología, donde vemos.",H2
+clip_004,189.87,197.13,"Ahora se ha descubierto toda la verdad, jóvenes, espero, porque el futuro es de ustedes.",H2
+clip_004,197.67,202.33,"Nosotros ya nos vamos y tienen que defender a vuestra patria, luchar.",H2
+clip_004,203.52,210.16,"Esos, vuestros padres nos están dejando esas luchas, les están enseñando, están viendo la realidad",H2
+clip_004,210.16,212.68,"gracias a la tecnología, a la verdad.",H2
+clip_004,212.68,218.72,"Ustedes saben lo que está pasando, jóvenes, la patria es de ustedes y a continuar luchando",H2
+clip_004,218.72,223.46,"para un Perú grande, lleno de riquezas, de minería.",H2
+clip_004,224.26,227.4,Tenemos todo lo grande que ustedes pueden disfrutar.,H2
+clip_004,228.04,232.68,"Que de repente podamos ser algún día como ese país, Dubái, lleno de minería, de oro.",H2
+clip_004,232.78,235.4,"A eso tienen que ustedes luchar, jóvenes.",H2
+clip_004,235.92,236.24,Gracias.,H2
+clip_004,236.24,238.18,"Gracias, [PERSONA_9], créame que...",H1
+clip_004,238.18,242.38,No sé si podría pronunciar este pronunciamiento...,H2
+clip_004,242.38,243.14,"Claro, claro, no hay problema.",H1
+clip_004,243.22,245.4,"...que tenemos, este...",H2
+clip_004,245.4,250.14,"Nosotros tenemos un pronunciamiento desde la ciudad de Apurímac,",H2
+clip_004,250.52,254.68,"somos una organización de mujeres desocupadas, Micaela Bastidas,",H2
+clip_004,254.88,258.8,a la cual hemos traído acá para poder pronunciar.,H2
+clip_004,258.8,266.38,"Mira, nuestro país enfrenta el regreso del anocromismo salvaje y brutal,",H2
+clip_004,266.96,276.1,"donde las mujeres éramos un objeto más de práctica, serviles de quienes se auto eligieron",H2
+clip_004,276.1,278.06,como nuestros dueños.,H2
+clip_004,278.48,283.42,El Congreso Nacional se ha convertido en un espacio de poder,H2
+clip_004,283.42,287.52,"donde se siembra la discordia entre peruanos,",H2
+clip_004,289.19,296.45,"trasciendiendo nuestros derechos fundamentalmente y principalmente de nosotras, las mujeres.",H2
+clip_004,297.09,305.11,"Para ello, se han unido desde la derecha apatriaca y supuesta izquierda,",H2
+clip_004,305.57,310.13,que sorprendentemente se autodenominan provincianas.,H2
+clip_004,310.13,319.51,Ambos han inflado sus baterías para intentar destruir el Ministerio de la Mujer y Poblaciones Vulnerables,H2
+clip_004,319.51,327.45,y una entidad producto de lucha de todas las mujeres peruanas desde la región Apurímac.,H2
+clip_004,327.81,337.01,Nos levantamos contra estas ignomias que buscan desconocer el rol fundamentalmente de la mujer en la sociedad,H2
+clip_004,337.01,345.27,"y en andas de todas las normatibilidades, como la Ley 3036,",H2
+clip_004,345.93,353.79,Ley para Erradicar y Sancionar la Violencia contra la Mujer y los Integrantes del Grupo Familiar.,H2
+clip_004,354.17,360.85,"Ley 2898 de Igualdad de Oportunidades entre Mujeres y Hombres,",H2
+clip_004,360.85,370.11,las mujeres principalmente violan la normatibilidad internacional que nos protege como la Convención Internacional,H2
+clip_004,370.11,376.59,"para prevenir y sancionar y erradicar la violencia contra las mujeres, especialmente el Convenio de Belín.",H2
+clip_004,377.15,381.53,"En tal sentido, las mujeres peruanas, principalmente las apurimeñas,",H2
+clip_004,381.53,388.37,"nada nos han regalado, todo lo hemos conquistado con lucha, sacrificio,",H2
+clip_004,389.33,393.75,siguiendo el legado de nuestra heroína Micaela Bastidas Puyucaba.,H2
+clip_004,394.19,404.6,Las mujeres peruanas somos 16 millones de ciudadanas y nos dejamos pasar esta afrenda.,H2
+clip_004,404.6,412.18,Hoy decimos a los descendientes de estos bárbaros que se camuflan en el Congreso,H2
+clip_004,412.18,418.7,que no pasará el intento de cambiar de nombre el Ministerio de la Mujer,H2
+clip_004,418.7,428.12,porque en 500 años de exclusión enseñamos a nuestros hijos a luchar con dignidad,H2
+clip_004,428.12,432.64,para construir una patria de igualdad y libertad.,H2
+clip_004,433.02,438.5,Somos peruanos y no regresaremos al mundo de la cavernícola,H2
+clip_004,438.5,443.76,de tanto extrañan estos herederos del coloniaje.,H2
+clip_004,444.62,451.31,Impulsaremos y recolectaremos la firma de todas las mujeres peruanas,H2
+clip_004,451.31,453.33,para defender nuestros derechos.,H2
+clip_004,453.89,458.37,¡Viva el Ministerio de la Mujer! ¡Viva las poblaciones vulnerables!,H2
+clip_004,458.37,459.71,¡Muchísimas gracias!,H2
+clip_004,459.97,460.95,¡Viva! ¡Gracias señores!,H1
+clip_004,461.05,463.01,Los creamos que sus palabras me llenan de espíritu realmente.,H1
+clip_004,463.11,465.33,"Gracias papi, a continuar joven lindo.",H2
+clip_004,466.21,469.37,"Ustedes son los dueños, en ustedes está el futuro.",H2
+clip_004,469.65,471.37,Ustedes son quienes se van a quedar.,H2
+clip_004,471.87,476.75,"Nosotros somos, aperturamos nuestra lucha en favor de ustedes",H2
+clip_004,476.75,478.33,porque ustedes son nuestros hijos.,H2
+clip_004,478.45,482.07,Yo tengo hijos y quiero que mis hijos algún día vean los grandes,H2
+clip_004,482.07,485.93,y que luchen por esta hermosa patria que tanto amamos,H2
+clip_004,485.93,491.63,"y es una patria grande, lleno de millonarios, lleno de oro, de riqueza.",H2
+clip_004,492.09,494.25,"Adelante jóvenes, la lucha son de ustedes.",H2
+clip_004,494.45,495.67,Muchísimas gracias joven.,H2
+clip_004,495.91,496.15,Gracias.,H2
+clip_005,0.05,6.25,"Hola. Bien, hola. Estamos aquí en la Plaza Mayor de Huancayo y bueno, estamos con...",H1
+clip_005,6.25,9.19,"[PERSONA_10]. Bien, [PERSONA_10], dígame, ¿usted de dónde es?",H1
+clip_005,9.61,10.59,Soy venezolano.,H2
+clip_005,10.99,15.17,"Ah, bueno, entonces, este... Bueno, qué curioso, ¿no? Justo en la entrevista de Vista Patris,",H1
+clip_005,15.23,19.59,"entonces mi primera pregunta para usted sería, ¿qué significa para usted el Perú?",H1
+clip_005,20.49,25.37,"Uy, Perú, Perú, una bendición, pues, Perú para mí significa que es mi segundo país,",H2
+clip_005,25.37,31.95,"porque vine hace 25 años por primera vez. Luego viví, estuve viviendo en Lima, he vivido en Cusco,",H2
+clip_005,32.07,36.97,"he estado viviendo aquí en Huancayo, ahorita estoy con mi esposa, estamos como pastores, mi esposa y yo.",H2
+clip_005,37.8,39.92,Estamos predicando a Jesucristo.,H2
+clip_005,40.95,45.71,"Buen mensaje. Y bueno, usted desde su perspectiva, ¿qué podría decir, no?",H1
+clip_005,45.81,48.27,¿Cuáles son las características positivas que tiene el Perú?,H1
+clip_005,49.17,54.85,"Bueno, característicamente, como idiosincrasia, las personas, en verdad,",H2
+clip_005,54.85,56.83,ha conseguido muchas personas buenas y amables.,H2
+clip_005,57.57,60.51,"Y como en todo lugar también de la tierra hay personas también malas, pues,",H2
+clip_005,60.65,63.23,hay buenas personas educadas como hay personas mal educadas.,H2
+clip_005,63.77,69.39,"Pero no puedo quejarme, en realidad, tiene una tierra muy preciosa, tiene unas tierras,",H2
+clip_005,69.45,74.65,"yo le digo, esta es la tierra que fluye leche y miel, lamentablemente, lamentablemente,",H2
+clip_005,74.69,79.49,"hay que decirlo, no ha tenido esa bendición de tener unos buenos administradores,",H2
+clip_005,79.49,84.51,"porque si así fuese, wow, Perú fuese una potencia en Latinoamérica muy grande.",H2
+clip_005,85.35,87.15,"Yo amo esta nación, lo amo.",H2
+clip_005,87.97,91.93,"Y aún soy venezolano, no he dejado de ser, tengo carnet de extranjería,",H2
+clip_005,92.49,94.81,"mi esposa también anda conmigo, tengo un hijo en Lima,",H2
+clip_005,95.35,97.83,"pero estoy muy agradecido de todo corazón,",H2
+clip_005,98.39,100.09,porque es la segunda patria que Dios me ha dado.,H2
+clip_005,100.93,101.93,Eso es lo que puedo decir.,H2
+clip_005,102.33,104.23,"Su gente tiene una juventud muy bella,",H2
+clip_005,104.63,107.59,"que no queremos que se nos dañe, pues, realmente.",H2
+clip_005,107.59,109.03,"Eso te podría decir, hijo.",H2
+clip_005,109.35,113.39,"Claro, por otro lado, ahora, ¿qué podría decir acerca de las características negativas",H1
+clip_005,113.39,114.75,que tiene nuestro país en Perú?,H1
+clip_005,116.14,120.4,"Sí, característicamente negativo, lo que está dañando a este país,",H2
+clip_005,120.6,123.38,"en realidad, en realidad, para serles sinceros,",H2
+clip_005,123.8,127.2,"ha sido su sistema político, económico.",H2
+clip_005,127.76,132.72,"Ha estado dañando y, de hecho, también ha estado dando mal ejemplo, pues.",H2
+clip_005,132.72,136.72,"Y, obviamente, no tenemos carencia de liderazgo,",H2
+clip_005,137.6,142.3,"de verdaderos líderes que comprendan lo precioso, maravilloso y poderoso",H2
+clip_005,142.3,144.1,que es esta nación para sacarla adelante.,H2
+clip_005,145.02,147.72,"Negativamente, porque una nación es lo que son sus líderes.",H2
+clip_005,148.3,148.7,¿Sí o no?,H2
+clip_005,149.2,150.56,"Esa es mi opinión, pues.",H2
+clip_005,151.16,155.52,"Pero por lo demás, no, pues, para aquí hay, como en todas partes del mundo,",H2
+clip_005,156.06,159.14,"hay en todas partes delincuentes, en todas partes mentirosos,",H2
+clip_005,159.14,161.12,"en todas partes hay maldad de drogas, alcohol.",H2
+clip_005,161.82,166.2,"Acá, pues, yo no puedo resaltar eso, porque no tengo, no veo que eso es necesario.",H2
+clip_005,166.82,169.8,"Resalto más que todo su liderazgo, que ha sido bastante mentiroso.",H2
+clip_005,169.9,170.58,Eso sí es verdad.,H2
+clip_005,171.14,171.88,No hay credibilidad.,H2
+clip_005,172.86,175.52,"Y eso ahorita nos tiene bastante incógnitas, ¿sí o no?",H2
+clip_005,175.82,177.0,En incertidumbre.,H2
+clip_005,177.6,179.16,"No, ¿qué pasa? ¿Son o no son?",H2
+clip_005,179.6,180.72,¿Avanzamos o no avanzamos?,H2
+clip_005,180.8,182.5,¿Nos quedamos o qué hacemos?,H2
+clip_005,182.74,183.96,No encontramos a quién seguir.,H2
+clip_005,184.5,185.08,No hay líder.,H2
+clip_005,185.92,187.74,"Esa es mi opinión personal, por supuesto.",H2
+clip_005,187.74,194.4,"Ahora, y por último, ¿qué mensaje usted le podría dar a todas esas futuras generaciones de peruanos,",H1
+clip_005,194.74,195.86,"e inclusive venezolanos, ¿no?",H1
+clip_005,195.86,197.08,Que podrían estar viendo esta entrevista.,H1
+clip_005,197.42,197.58,Sí.,H2
+clip_005,198.18,203.66,"Bueno, mi consejo como un padre de familia que soy, ya soy abuelo, bisabuelo también,",H2
+clip_005,204.42,206.74,"voy a cumplir 70 años, pero Dios me ha dado salud,",H2
+clip_005,207.48,211.98,es que en realidad busquemos seguir los buenos ejemplos.,H2
+clip_005,211.98,216.82,"Los buenos, porque se están sembrando falsos valores, falsos ideales,",H2
+clip_005,217.14,220.1,y eso es lo que está corrompiendo y debilitando más nuestra sociedad.,H2
+clip_005,220.5,223.74,"Que realmente podamos analizar, redimensionar,",H2
+clip_005,223.8,225.68,"qué nos están enseñando a través de las redes,",H2
+clip_005,226.14,227.84,qué quieren hacer con nuestras mentes.,H2
+clip_005,227.92,231.04,"Como jóvenes, a mis mismos paisanos venezolanos se los he dicho,",H2
+clip_005,231.38,234.5,"no podemos vivir una vida de vanidad, de ciencia, de ficción.",H2
+clip_005,234.5,237.34,"Tenemos que tener valores y principios morales,",H2
+clip_005,237.7,240.52,"y no hay mejores valores que los valores eternos de Dios,",H2
+clip_005,240.98,244.3,"a través de su Hijo Jesucristo, y que leamos la Palabra de Dios.",H2
+clip_005,244.88,247.68,"Podemos leer libros, podemos ser intelectuales de todo tipo de materia,",H2
+clip_005,248.06,249.78,pero el libro de los libros es la Biblia.,H2
+clip_005,249.94,250.86,"Ese es mi consejo, hijo.",H2
+clip_005,251.61,252.31,"Muchas gracias, [PERSONA_10].",H1
+clip_005,252.53,254.43,"Y bueno, sigamos construyendo un país.",H1
+clip_005,254.55,254.89,"Bueno, gracias.",H1
+clip_005,255.39,258.69,"Usted bendiga y te acompaña, y te salga un buen profesional,",H2
+clip_005,258.91,259.83,porque sé que lo va a hacer.,H2
+clip_005,260.67,261.03,Bendiciones.,H2
+clip_005,261.03,261.51,Gracias.,H2
+clip_006,0.0,5.42,normal esperando resultados pero como lo ves como ves a perú ahorita que está,H1
+clip_006,8.42,15.67,no se entiende no se están entendiendo no no hay como cuatro jugadores que están por las puras,H2
+clip_006,15.67,22.55,y ahora el técnico tiene que hacer justo los cambios supongo esos cuatro jugadores,H2
+clip_006,22.55,29.39,el carrillo canchita este trauco y y la lucha,H2
+clip_007,0.0,15.2,"Sí, déjalo ya, así, ya está grabando, ya está grabando ya, ya, ya, ya, ya, ya, buena tarde, me presento, soy [ENTREVISTADOR_3], y quería preguntarle si tengo su consentimiento para que esta entrevista sea publicada.",H1
+clip_007,15.64,16.12,"Sí, claro.",H1
+clip_007,17.4,22.1,"Primera pregunta, ¿qué significa la marcha para ustedes?",H1
+clip_007,22.1,28.14,"Para mí la marcha del orgullo es luchar por mis derechos para no tener miedo a salir a la calle a mostrar quién soy yo,",H2
+clip_007,28.14,36.2,"y tener miedo de que alguien me haga algo, y buscar el respeto hacia mi persona, y hacia las personas como yo, parte de la comunidad.",H2
+clip_007,36.84,42.16,"Muchas gracias, y la segunda y última pregunta es, ¿qué es el instante que le daría a la juventud de hoy?",H1
+clip_007,42.6,46.72,"Que no tengan miedo, porque somos muchos, somos muchos los que nos vamos a recibir con los brazos abiertos,",H2
+clip_007,47.16,52.28,"que si de repente en su familia no los apoya, acá tienen una familia que los va a recibir siempre.",H2
+clip_007,52.8,53.72,"Ok, muchas gracias.",H1
+clip_007,53.9,54.02,Ya.,H1
+clip_008,0.0,6.16,"¿Qué se llama? Chuyas, ¿verdad? Sí, es Chuyas.",H1
+clip_008,6.16,8.16,"¿Usted pertenece a Pueblo? Sí, sí.",H1
+clip_008,8.16,12.4,¿Y cómo está viviendo este momento?,H1
+clip_008,12.4,16.4,"Pues en sí la imagen se celebra ya en Glacier, en Chuyas, pero acá ya bueno...",H1
+clip_008,16.4,26.27,¿Quién suele venir así a Pueblo?,H1
+clip_009,0.24,0.82,¿Cuál es su nombre?,H1
+clip_009,0.84,1.66,[PERSONA_11].,H2
+clip_009,1.84,6.94,"Ah, ok. Usted, este, me acaba de decir que no es del pueblo. ¿Usted de dónde es?",H1
+clip_009,6.94,11.96,La misma sitio o no. Yo soy de... misma Pumabamba. Este es un distrito.,H2
+clip_009,12.16,14.14,"Usted es de la provincia. Hay chullas, es un distrito.",H1
+clip_009,14.48,15.62,"Ajá, muy distrito.",H2
+clip_009,15.64,17.78,¿Y cómo ha sido usted ha venido aquí?,H1
+clip_009,18.72,20.84,"Ah, como conozco, todos los años vengo.",H2
+clip_009,20.98,22.18,"Ah, viene todos los años, sí.",H1
+clip_009,22.52,29.98,"Y hay algo de especial en esta ocasión en el que usted ha venido o antes ha habido tal vez más bandas, más...",H1
+clip_009,30.0,33.58,"No, es la misma, la misma costumbre que se acabaron pasar esos.",H2
+clip_009,33.72,37.1,Claro. ¿Y qué otras cosas más van a ocurrir más de adelante?,H1
+clip_009,37.3,45.74,"Ah, otros bailes también, depende del mayordomo o depende de donadores que hay, si hay bailes, bailes costumistas.",H2
+clip_009,45.74,50.2,"Y normalmente hay, claro, ¿normalmente hay esta cantidad de gente o a veces hay más o menos?",H1
+clip_009,50.74,51.62,Más tarde llenan.,H2
+clip_009,51.86,53.2,"Ah, más tarde vienen más personas.",H1
+clip_009,53.28,56.14,"Uh, hay bastantes del pueblo.",H1
+clip_009,56.14,57.02,"Sí, ajá.",H2
+clip_009,57.16,57.56,¿Qué te dicen?,H3
+clip_009,57.86,61.6,"Este es como vienen para misa, como dicen, ¿no?",H2
+clip_009,62.04,67.78,"Entonces ahí llegamos, hay personas que nos gusta escuchar la misa.",H2
+clip_009,68.26,71.2,"Y se quedan hasta tarde, ahí hay que disfrutar todo el evento.",H1
+clip_009,71.22,74.44,"Ajá, ya entre 5 o 6 y ya estamos yendo ya nosotros.",H2
+clip_009,74.5,75.1,"Ah, ya se van.",H1
+clip_009,75.1,76.06,Otros ya y regresan.,H2
+clip_009,76.12,77.36,"También se quedan, además.",H3
+clip_009,77.36,80.55,"Ah, ya se van, muchas gracias, señores.",H1
+clip_009,80.81,81.29,Muchas gracias.,H1
+clip_009,81.29,81.39,Gracias.,H3
+clip_010,0.0,6.34,"Sí, yo soy [ENTREVISTADOR_2] de la Facultad de Ciencias Biológicas",H1
+clip_010,6.34,14.14,"y ahora le voy a hacer preguntas al señor [PERSONA_12], que nos va a responder en primer lugar",H1
+clip_010,14.14,17.46,¿Qué pensás que le daría a la juventud del país?,H1
+clip_010,18.62,26.96,"Bueno, el amar es amar, ¿no? Creo que cada uno tiene una orientación, tiene una preferencia",H2
+clip_010,26.96,32.95,"y nadie debe ser juzgado por esto, ¿no? Sabemos que la sociedad peruana es un tanto conservadora",H2
+clip_010,32.95,39.65,pero poco a poco confío de que abriremos más la mente para que muchos de nosotros en la comunidad,H2
+clip_010,39.65,43.38,pues podamos amar sin ninguna restricción.,H2
+clip_010,44.74,47.76,"Ah, y también me gustaría preguntarle qué significa esta marcha por usted.",H1
+clip_010,48.3,53.76,"Bueno, ya vengo participando, bueno, desde que soy mayor de edad de hace 4 o 5 años",H2
+clip_010,53.76,59.28,y es un espacio donde puedo encontrarme con mucha más gente que también de la comunidad,H2
+clip_010,59.28,64.36,"y son espacios donde simplemente expresamos lo que sentimos, ¿no?",H2
+clip_010,64.68,70.32,"Quiénes somos, a qué comunidad pertenecemos y que nuestro amor no hace daño a nadie",H2
+clip_010,70.32,73.52,"simplemente queremos eso, disfrutar de lo nuestro.",H2
+clip_010,74.43,76.23,"Ya, muchas gracias por sus respuestas.",H1
+clip_010,76.37,76.95,Muchas gracias a ti.,H2
+clip_011,0.94,11.3,"Ahora, mi nombre es [ENTREVISTADOR_2], ahora voy a presentar a hacerle unas preguntas al señor para entrevistarlo, al señor [PERSONA_4] para poder entrevistarlo.",H1
+clip_011,12.69,23.5,"En primer lugar, me gustaría preguntarle qué mensaje le daría a la juventud del país, al respecto de esta marcha en general.",H1
+clip_011,23.5,36.65,"Que sigan sus sueños, que hagan lo que les gusta, con responsabilidad y que luchen por eso, que sean personas felices en realidad.",H2
+clip_011,38.19,56.74,"Al menos mi generación, muchos han hecho cosas que en realidad al final no les gustaban, pero yo creo que la juventud ahora debería seguir sus sueños y hacer lo que les gusta en todo ámbito, con responsabilidad por eso.",H2
+clip_011,56.74,58.38,Y no se le dañan a nadie.,H2
+clip_011,59.24,62.84,Entonces me gustaría preguntarle qué opina de la marcha aquí.,H1
+clip_011,63.87,64.63,¿Qué opina de la marcha?,H1
+clip_011,66.0,68.94,"Bien, colorida.",H2
+clip_011,69.75,70.15,¿Colorida?,H3
+clip_011,70.29,71.35,Bastante comercial también.,H2
+clip_011,71.73,72.15,¿Comercial?,H3
+clip_011,72.41,72.65,Sí.,H3
+clip_011,73.46,75.32,¿Cómo comercial? ¿Por qué mucha gente que vende cosas?,H1
+clip_011,76.78,81.13,"Vende cosas, es como el Día de la Mujer, el Día del Niño, ¿no?",H2
+clip_011,81.17,87.5,"No es que vengan cosas, sino que es bastante marquillado.",H2
+clip_011,88.44,90.17,"Está bien, está bien.",H3
+clip_011,91.48,91.66,Sí.,H3
+clip_011,92.64,93.08,Gracias.,H1
+clip_011,93.62,93.92,Listo.,H3
+clip_012,0.0,0.9,"A ver, a ver, ¿cuál es la pregunta?",H1
+clip_012,0.9,6.02,"A ver, buenas noches, primeramente, mi nombre es [ENTREVISTADOR_1], soy estudiante de la Universidad de San Marcos.",H2
+clip_012,7.1,8.48,"A ver, un momento, por favor.",H2
+clip_012,9.9,10.66,Yo te voy a decir la verdad.,H3
+clip_012,11.26,13.32,"Sí, no, está bien, eso es lo que yo busco.",H2
+clip_012,14.12,15.08,"A ver, buenas noches.",H2
+clip_012,16.09,19.71,"Sí, buenas noches, mi nombre es [ENTREVISTADOR_1], soy estudiante de la Universidad de San Marcos.",H2
+clip_012,20.29,21.01,¿Cómo se llama usted?,H2
+clip_012,21.49,22.37,[PERSONA_1].,H4
+clip_012,23.29,26.91,"Señor [PERSONA_1], esta entrevista va a ser publicada en un foro de internet, ¿está de acuerdo?",H2
+clip_012,27.61,28.17,"Exacto, sí.",H3
+clip_012,28.47,30.35,"Muy bien, ¿qué es el Perú para usted?",H2
+clip_012,30.93,38.06,"El Perú es un país con mucha historia, bueno, el lugar donde yo nací y me gusta.",H4
+clip_012,39.48,43.2,¿Cuáles serían los principales aspectos positivos que rescata el Perú?,H2
+clip_012,44.75,50.02,"Mira, realmente, en el Perú, aunque tenga sus problemas, ¿me entiendes?",H4
+clip_012,50.02,60.58,"Ya sea del poder judicial o de todo el sistema en sí, yo pienso que para mí lo beneficioso de este país",H4
+clip_012,60.58,67.66,"es la enseñanza que nos da cómo ganarnos el dinero, porque como yo lo veo, este es un país, créame, muy rico,",H4
+clip_012,68.3,77.74,"que yo no sé cómo hace la gente, pero aquí la gente tiene dinero, pero no lo sabe cómo realmente ahorrarlo o conservarlo, ¿me entiendes?",H4
+clip_012,77.74,85.16,"Donde yo vengo, créeme, tengo que venir acá a inspirarme, para llevarme lo que yo veo aquí, para poder ganarme todo el dinero allá en Estados Unidos.",H4
+clip_012,85.16,91.21,¿Y cuáles serían las principales negatividades que encuentran en el Perú?,H2
+clip_012,91.21,99.94,"Bueno, faltaría sí que toda la gente tuviera más respeto, por ejemplo, con la policía.",H4
+clip_012,100.79,105.75,"Aunque yo entiendo que hay muchos elementos malos, pero hay muchos elementos buenos, muy buenos.",H4
+clip_012,106.79,108.13,Esas son las cosas negativas para mí.,H4
+clip_012,108.27,110.22,"Después, ¿qué te digo?",H4
+clip_012,110.22,119.51,"Yo creo que si todos nos educamos, ya sea desde la familia que empiece la educación, para que nuestros hijos, los que vienen del mañana,",H4
+clip_012,120.17,125.15,"tengan un comportamiento positivo con la sociedad, con la gente, y hagan las cosas bien.",H4
+clip_012,126.71,130.63,"Si usted pudiese enviarle un mensaje a esos jóvenes, ¿cuál sería?",H2
+clip_012,131.53,140.65,"Mira, yo les deseo realmente, y el mensaje que le daría a los jóvenes ahora, y tal vez funcione aquí, pero funcione en Estados Unidos.",H4
+clip_012,140.65,150.5,"Por ejemplo, punto número uno, estudia y aprende todo lo que puedas, porque mientras más sabes, más te puedes desarrollar en muchos trabajos.",H4
+clip_012,150.58,156.11,"No solamente, si estudias una cosa, no solamente, si no hay trabajo en eso, y si no hay, te vas a morir de hambre.",H4
+clip_012,156.21,160.87,"No, en lo que yo hago, por ejemplo, tengo diversidad de habilidades.",H4
+clip_012,161.37,163.49,"Me entiendes, si encuentro esto o si encuentro lo otro.",H4
+clip_012,164.61,166.25,"Aparte, yo daría tres consejos.",H4
+clip_012,167.27,169.67,"Punto número uno, no prestes dinero.",H4
+clip_012,169.67,172.51,"Punto número dos, no seas aval de nadie.",H4
+clip_012,172.79,175.41,"Y punto número tres, ahorra tu dinero.",H4
+clip_012,176.19,179.27,"Y si quieres ayudar a alguien, ayúdate a ti mismo.",H4
+clip_012,180.13,183.97,"Si quieres sentir pena por alguien, siente pena por ti, no por nadie.",H4
+clip_012,184.15,188.77,"A las finales, si ayudas a alguien, lo ayudas o no lo ayudas, igual se van a quejar de ti.",H4
+clip_012,189.41,191.01,Por ayudar y por no ayudar.,H4
+clip_012,191.57,193.59,Muchas gracias por sus palabras. Felices fiestas.,H2
+clip_012,193.73,194.55,"Oye, gracias, me.",H4
+clip_012,195.17,195.55,Gracias.,H1
+clip_012,195.55,196.55,Gracias.,H3
+clip_012,196.55,197.55,Gracias.,H1
+clip_012,197.55,198.55,Gracias.,H1
+clip_013,0.62,15.82,Nos encontramos aquí con el señor [PERSONA_2],H1
+clip_013,15.82,19.7,"Señor [PERSONA_2], esta entrevista va a ser subida a internet, ¿está usted de acuerdo con eso?",H1
+clip_013,20.89,26.47,"Sí, muchas gracias. La primera pregunta es, ¿qué significa el Perú para usted?",H1
+clip_013,26.47,32.99,¿Qué significa el Perú? Yo pienso que para cada peruano el Perú debe significar casi todo,H2
+clip_013,32.99,40.17,"porque es la tierra donde estamos, si lo vemos en el aspecto geográfico",H2
+clip_013,40.17,48.15,"en lo cual, a pesar de nuestras descendencias, de todas nuestras descendencias es la tierra que nos acoge",H2
+clip_013,48.15,50.75,que es ese límite que se llama Perú.,H2
+clip_013,50.75,57.65,"En el Perú, ¿cuáles serían las características positivas más resaltantes que usted puede notar?",H1
+clip_013,58.37,61.71,"Las características, que cada vez vamos avanzando de a poco, ¿no?",H2
+clip_013,62.39,67.37,"Como por ejemplo, que no podemos comparar la época del Virreinato con la actualidad",H2
+clip_013,67.37,72.95,"Cada momento va avanzando, son características que vas, ¿cómo se puede decir?",H2
+clip_013,73.65,74.71,Que vas desarrollando.,H2
+clip_013,75.41,78.79,¿Y cuáles serían las características negativas que usted puede observar?,H1
+clip_013,78.79,87.98,"Indudablemente, las malas funciones que hacen nuestras autoridades, ¿no?",H2
+clip_013,87.98,92.17,"Si lo vemos en el lado político, la corrupción y todo eso.",H2
+clip_013,92.99,95.69,"Muchas gracias, señor. Felices fiestas, Padre.",H1
+clip_014,0.21,3.23,Buenas noches,H1
+clip_014,3.23,5.51,Soy [ENTREVISTADOR_1],H1
+clip_014,5.51,6.91,Estudiante de la San Marcos,H1
+clip_014,6.91,8.77,Esta entrevista va a ser,H1
+clip_014,8.77,11.29,"Registrada en internet, ¿está de acuerdo usted?",H1
+clip_014,11.47,12.13,"Sí, estoy de acuerdo",H2
+clip_014,12.13,15.13,"Muy bien, para usted, ¿qué es el Perú?",H1
+clip_014,17.05,18.03,Pues yo no soy peruano,H2
+clip_014,18.03,20.15,De entrada,H1
+clip_014,20.15,21.15,Pero,H3
+clip_014,21.15,24.68,"Perú, yo creo que junto con México",H2
+clip_014,24.68,26.64,Los dos países que más historia tienen,H2
+clip_014,26.64,27.9,Más cultura y más,H4
+clip_014,27.9,31.48,Más restos de civilizaciones prehispánicas,H2
+clip_014,31.48,33.88,Más ciudades coloniales,H2
+clip_014,33.88,35.7,Mucho más riqueza de folclor,H2
+clip_014,35.7,36.82,De todo,H5
+clip_014,36.82,39.3,En América me parece que son los dos más ricos,H2
+clip_014,39.3,40.72,Muchas gracias,H1
+clip_014,40.72,43.58,"Y usted en su estadía en Perú, ¿cuáles son las principales",H1
+clip_014,43.58,45.98,Características positivas que podría destacar?,H1
+clip_014,46.22,48.08,La gente es increíblemente amable,H2
+clip_014,48.08,50.18,"Lima, por ejemplo",H2
+clip_014,50.18,52.26,"Me parece una ciudad muy ordenada, muy limpia",H2
+clip_014,52.26,54.4,La ciudad muy bien organizada,H2
+clip_014,54.4,55.82,Yo apenas hundí,H2
+clip_014,55.82,57.58,Entonces no te puedo decir mucho más de eso,H2
+clip_014,57.58,60.16,"Y en ese día, ¿cuál sería",H1
+clip_014,60.16,61.74,El aspecto más negativo que noto?,H1
+clip_014,62.06,64.22,Pues aquí en Lima,H2
+clip_014,64.22,66.25,El servicio es muy lento,H2
+clip_014,66.25,69.8,El servicio es terriblemente lento en los restaurantes,H2
+clip_014,69.8,71.25,Pero digo,H6
+clip_014,71.25,72.77,Eso no es que sea tan negativo,H2
+clip_014,72.77,74.49,Pero es el único negativo que te puedo decir de Lima,H2
+clip_014,74.49,76.35,"Muchas gracias, señor",H1
+clip_014,76.35,77.35,Felices fiestas,H1
+clip_015,0.3,4.82,"Buenas noches, soy [ENTREVISTADOR_1], gestionante de la San Marcos. ¿Cuál es su nombre?",H1
+clip_015,5.06,5.38,[PERSONA_3].,H2
+clip_015,5.98,9.92,"Señor [PERSONA_3], esta entrevista va a ser publicada en un foro de internet, ¿está de acuerdo?",H1
+clip_015,10.3,10.92,Ya está bien.,H2
+clip_015,11.22,14.7,"Muy bien, la primera pregunta es, ¿qué es el Perú para usted?",H1
+clip_015,15.12,22.84,"El Perú es mi patria, es una patria donde han nacido mis ancestros, he nacido yo,",H2
+clip_015,22.84,36.08,"y está ubicado en un sitio de América que está delimitado por sus fronteras, es de mi patria.",H2
+clip_015,36.91,42.23,"En toda su vida, ¿cuáles serían las principales características positivas que puede rescatar el Perú?",H1
+clip_015,43.52,50.47,"Bueno, las características serían su gastronomía, la gastronomía a nivel mundial tiene prestigio,",H2
+clip_015,50.47,56.76,"que es muy conocido a nivel internacional, su música, también su literatura,",H2
+clip_015,57.89,64.9,y también los grandes científicos que ha aportado nuestro país.,H2
+clip_015,65.56,67.18,¿Y los aspectos negativos?,H1
+clip_015,67.9,71.56,"Bueno, los aspectos negativos, digamos, el desempleo que acecha.",H2
+clip_015,72.22,77.92,"A veces, la inflación que hemos sufrido durante años,",H2
+clip_015,78.85,81.51,la inflación significa aumento constante de los precios.,H2
+clip_015,81.51,85.82,"Ese es uno de los aspectos negativos que no supieron controlar,",H2
+clip_015,85.96,88.0,hemos vivido bastante tiempo con la inflación.,H2
+clip_015,88.92,92.36,"Si pudieras darle un comentario a la juventud, ¿cuál sería?",H1
+clip_015,93.02,101.34,"Bueno, como dicen, ¿por qué Estados Unidos progresa?",H2
+clip_015,101.48,102.28,¿Y por qué el Perú?,H2
+clip_015,103.08,107.72,"No, porque la gran mayoría de los países desarrollados,",H2
+clip_015,107.72,112.38,"la mentalidad de la juventud está ligada a la producción,",H2
+clip_015,113.02,115.39,"pero en nuestro país no necesariamente,",H2
+clip_015,117.02,122.16,"porque el pensamiento de la juventud a veces piensa, por ejemplo,",H2
+clip_015,122.72,128.31,"ser literato, dicen la juventud, quiero ser abogado, quiero ser periodista.",H2
+clip_015,129.63,132.59,"Por eso no hay producción, no son aspectos que no hay producción.",H2
+clip_015,132.59,139.59,"Entonces, la juventud de hoy debe pensar en lo que es la producción.",H2
+clip_015,140.25,147.33,"Deben seguir carreras técnicas, ingeniería, ligadas a la producción.",H2
+clip_015,148.23,153.97,"Porque solamente si la juventud piensa en la producción,",H2
+clip_015,153.97,156.59,"como lo hace la juventud de los Estados Unidos,",H2
+clip_015,156.71,158.37,"como lo hace la juventud de los Estados Unidos,",H2
+clip_015,158.69,160.29,entonces podemos llegar a un desarrollo.,H2
+clip_015,160.85,163.13,"Muchas gracias por sus palabras. Felices fiestas, Patria.",H1
+clip_015,163.13,163.57,De igual manera.,H2
+clip_016,0.08,8.24,"Una de las anécdotas que haya marcado mi vida es cuando estuve muy pequeña y mis padres también se dedicaban a la siembra de coca,",H1
+clip_016,8.34,16.58,"pero vino la erradicación y con todos los vecinos, todas las partes que sembraban se vieron afectadas porque no tenían otro tipo de sembríos",H1
+clip_016,16.58,24.2,"y erradicaron la coca de raíz y fue muy duro un par de meses, por qué no decir unos años para recuperarse,",H1
+clip_016,24.2,32.28,"volver a restablecerse, sembrar lo que es el tema de otros productos alternativos para poder sustentar el tema económico",H1
+clip_016,32.28,43.26,"y emocional sobre todo para el tema de que las familias que no tenían con qué compartir o sustentar las casas, comida, los ingresos, los estudios, entre otras cosas.",H1
+clip_017,0.0,7.36,"Yo creo que el tema de identificar las brechas relacionadas a la mujer campesina es algo muy visible,",H1
+clip_017,7.54,14.86,"porque muchas de ellas no cuentan con estudios superiores, no cuentan con una carrera profesionales",H1
+clip_017,14.86,24.3,"y enfrentan muchos más desafíos, lo cual se dedica a las actividades agropecuarias, entre otras,",H1
+clip_017,24.3,34.1,y es un poco más dificultoso porque no tienen el apoyo necesario ni la capacidad o no tuvieron los estudios completos,H1
+clip_017,34.1,43.6,"para poder defenderse entre otros campos, pero hoy en día creo que las cosas han cambiado y han avanzado para bien a favor de las mujeres.",H1
+clip_018,0.0,1.48,imata jutiqui,H1
+clip_018,2.42,5.51,cuti [PERSONA_15],H1
+clip_018,7.0,7.62,o,H1
+clip_018,7.83,16.68,tapurishqequi que planta medisinacunapaqa rï y imataq juticun que planta,H1
+clip_018,17.4,21.06,qui plantapa juticun aurinsham,H1
+clip_018,21.59,24.55,imapaq sirbin que qora,H1
+clip_018,25.11,29.22,que awrin sha sirbin inframasion,H1
+clip_018,29.22,31.98,labadu ruracunapaqnu,H1
+clip_018,32.44,35.34,imecho tarishwan queqora,H1
+clip_018,35.58,40.84,que qoraqa campucunacho sanjacunachomi,H1
+clip_018,40.95,48.17,cyurin y imä partï que qorapa mas usashun,H1
+clip_018,49.08,54.44,cusantsic queqa upuntsicpis pachantsic nanaptin,H1
+clip_018,54.71,63.34,upurintsic inflamasion labaducunuta ruracurintsic pepaqmi que tantaq alli,H1
+clip_018,64.73,75.69,cancu y istorian umitun que planta peqa bitsa qam ima familiar,H1
+clip_018,75.86,78.66,ma memanpis usarqonqui,H1
+clip_018,79.29,83.75,usarqom que plantataqa gueno enfermo,H1
+clip_018,83.77,85.42,labädo o r,H1
+clip_018,85.53,91.05,chaquicunatapis paqarinqui inclamaptin jepaqm usarqö que pantata,H1
+clip_019,0.0,0.39,i,H1
+clip_019,0.41,3.02,cananqa mäs säplantata i,H2
+clip_019,3.03,4.74,apamorqonquië,H2
+clip_019,5.27,6.29,tapureyash,H2
+clip_019,6.29,7.75,tapryäshaquequi,H2
+clip_019,8.02,9.48,imapaq sirwin,H2
+clip_019,9.59,12.49,mapa imatataq curan,H2
+clip_019,12.86,13.8,e n i,H2
+clip_019,13.88,17.26,que imä qeshatataqa masä,H2
+clip_019,17.78,21.29,mas sanasqa quecho que,H2
+clip_019,21.46,22.44,puebluchon,H2
+clip_019,22.84,26.22,l imata juticun que qorapa,H2
+clip_019,26.42,29.51,que orapaqa jutin españolada,H3
+clip_019,30.94,34.6,mechotaq mas normalmente n i,H2
+clip_019,34.71,42.8,tainccque qorata que sonäcunapar quë jircacunapa querada jircacunapa queqa nir,H3
+clip_019,42.8,49.32,chacracunallachomi jircacunallachom can manam queqa chacräcunacho queno bajucunachoqa,H3
+clip_019,49.34,50.82,producints,H3
+clip_019,52.12,52.87,m —,H3
+clip_019,52.95,55.08,y que planta,H3
+clip_019,55.35,67.15,inflamasion o bariu riñon dolor de cintura jetam calman awade tiempucho todulis dias ucunequipaq jenollam noqa que plantata u tni,H3
+clip_019,67.15,69.16,ilisa jenollam reqï,H3
+clip_019,71.9,72.84,e —nh,H2
+clip_019,73.46,76.17,y më mechotaqa,H2
+clip_019,77.56,78.82,ä i,H2
+clip_019,78.97,79.85,nnan,H1
+clip_019,80.41,81.26,mci —,H3
+clip_019,81.46,82.79,tinoedene —ir,H1
+clip_019,83.26,84.33,notineoya,H1
+clip_019,84.98,86.98,pnaloquista siguien baya,H2
+clip_019,88.73,91.4,imapaqshi mas ayi queqora,H2
+clip_019,91.9,103.7,manam mastaq musyätsu noqaqa utilisä äwade tiempucho sintura nanaptin waqtäcuna nanaptin inflamasion pachapaq niyaptinllam u nir,H3
+clip_019,103.7,106.28,isäcü que plantataq balurarnin,H3
+clip_019,106.65,107.43,ayä,H2
+clip_019,107.7,108.62,pe i,H2
+clip_019,108.66,110.6,pitaqa o,H2
+clip_019,111.51,123.5,pitaq qamtaqä yachatsirqonqi noqataqa antipasadu mamänï awilita jecuna tiempum utilisayarqö y noqa jina je costumbritam apacü,H3
+clip_019,123.61,126.6,que plantat utilizar balur aren ni,H3
+clip_019,128.06,129.22,nesrietoen,H2
+clip_020,0.08,4.84,Las bocinas estas que te dije son enormes. ¿Sabes qué se puede hacer con ellas?,H1
+clip_021,0.88,4.28,"Esa película es un remake de La Bella y la Bestia, ¿cierto?",H1
+clip_022,0.5,6.2,Según la televisión y los medios ha habido bastantes muertos por el terremoto,H1
+clip_023,0.24,4.08,Hay un paquete en promoción de dos mil dólares por semana,H1
+clip_024,0.24,4.18,Me gustaría saber cuáles son los requisitos para formar parte de este club,H1
+clip_025,0.56,3.44,¿Qué fue lo que hizo el presidente Trump cuando llegó a Puerto Rico?,H1
+clip_026,0.18,3.26,Su gol fue chilena o fue tiro de esquina,H1
+clip_027,0.08,4.46,¿Quieres que lo compre con tu tarjeta de crédito o de débito?,H1
+clip_028,0.4,5.68,Voy a llevar a mi sobrino Disney y quería saber los horarios del parque para planearlo todo muy bien,H1
+clip_029,0.34,4.3,El más grande tiene cinco años y el otro tiene un año y medio,H1
