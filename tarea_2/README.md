@@ -101,10 +101,14 @@ real (ver `evidencias_ia/`).
 El trabajo se desarrolló con apoyo de **Claude Code (Claude Opus)** como asistente de programación; la conversación completa
 está en `evidencias_ia/` (capturas numeradas). La estudiante armó primero un borrador con la estructura de los archivos y luego
 se apoyó en Claude para revisarlo contra el enunciado, corregirlo y rehacerlo con datos reales, entendiendo en el camino cada
-etapa del proceso. La IA ayudó a escribir el código, depurar errores (oneDNN de PaddlePaddle, límites de Commons) y redactar la
-documentación. Las decisiones y la validación fueron humanas: elección de herramientas gratuitas y locales, revisión visual de
-los documentos, transcripción manual de las 15 referencias, validación de la seudonimización y auditoría de las 20 extracciones
-del LLM (15/20). Todos los modelos (PaddleOCR, Tesseract, faster-whisper, MMS, Qwen2.5) corrieron en local, sin APIs de pago.
+etapa del proceso: el corpus simulado se reemplazó por 25 documentos y 44,7 minutos de audio reales con licencia registrada,
+los textos escritos a mano por salidas reales de PaddleOCR, faster-whisper, MMS y Tesseract, y las métricas no verificables
+(CER 3,3 %, WER 2,9 %) por mediciones contra referencias manuales (CER 0,58, WER 0,22). La IA ayudó a escribir el código,
+depurar errores (oneDNN de PaddlePaddle, límites de Commons) y redactar la documentación. Las decisiones y la validación fueron
+humanas: elección de herramientas gratuitas y locales, revisión visual de los documentos, transcripción manual de las 15
+referencias, validación de la seudonimización (41 menciones) y auditoría de las 20 extracciones del LLM (15/20). Todos los
+modelos corrieron en local, sin APIs de pago. La principal lección: una métrica honesta, aunque sea peor, vale más que un
+resultado alto que no puede verificarse.
 
 ## 11. Formato de entrega
 
