@@ -3,7 +3,7 @@
 **Estudiante:** @fampueroc · **Curso:** Data Science con Python 2026 · **Fecha de extracción y evaluación:** 25 de octubre de 2026
 **Dashboard público:** https://voces-peruanas-fampueroc.streamlit.app/
 
-## Pregunta
+## 1. Pregunta
 
 > ¿Pueden convertir documentos escaneados y entrevistas en audio en un archivo de texto estructurado y buscable?
 
@@ -11,7 +11,7 @@
 corren gratis en una laptop sin GPU se procesaron 25 documentos y 44.7 minutos de audio reales: el texto queda buscable
 y un LLM local extrae campos en JSON, pero los manuscritos y los carteles pintados a mano siguen necesitando revisión humana.
 
-## Resultados (muestra fija de 10 documentos y 10 clips, referencias manuales)
+## 2. Resultados (muestra fija de 10 documentos y 10 clips, referencias manuales)
 
 | Modalidad | Modelo | Error | Latencia |
 |---|---|---|---|
@@ -23,7 +23,7 @@ y un LLM local extrae campos en JSON, pero los manuscritos y los carteles pintad
 
 **Acuerdo LLM vs. auditoría humana:** **15/20 (75 %)**: 10/10 en audio y 5/10 en documentos extracciones completamente correctas (Qwen2.5-1.5B-Instruct local).
 
-## Corpus, fuentes y licencias
+## 3. Corpus, fuentes y licencias
 
 | Corpus | Contenido | Fuente | Licencia |
 |---|---|---|---|
@@ -34,7 +34,7 @@ y un LLM local extrae campos en JSON, pero los manuscritos y los carteles pintad
 Fecha de extracción: 25 de octubre de 2026. La licencia, el autor y la URL de cada archivo están en `datos/fuentes.csv`
 (leídos de la API de Commons, no escritos a mano). `corpus.py` vuelve a descargar todo el corpus a `datos/raw/`, que no se versiona.
 
-## Pipeline
+## 4. Pipeline
 
 1. **`corpus.py`**: descarga con User-Agent descriptivo, 1,5 s entre solicitudes y reintentos ante *429 Too Many Requests*.
 2. **`01_extraccion.ipynb`**: PaddleOCR 3.7 (PP-OCRv6) → faster-whisper `large-v3-turbo` con VAD + diarización por huellas de voz
@@ -46,12 +46,12 @@ Fecha de extracción: 25 de octubre de 2026. La licencia, el autor y la URL de c
 Seudonimización: 41 menciones de nombres de personas privadas (6 en documentos y 35 en audio) reemplazadas por `[PERSONA_n]`, `[ENTREVISTADOR_n]` o `[AUTORIDAD_n]`.
 El diccionario de reemplazos es privado (`datos/raw/seudonimos.json`, fuera de Git). Los personajes históricos se mantienen.
 
-## Hallazgos
+## 5. Hallazgos
 
 1. **La dificultad del documento importa más que el modelo.** PaddleOCR obtiene CER 0.45 en impresos, 0.78 en fotos y 0.97 en manuscritos; una placa grabada sale casi perfecta (0,05) y un cartel pintado a mano no se lee en absoluto. Frente a Tesseract (CER 0,69), PaddleOCR gana sobre todo en impresos (0,45 frente a 0,81). Y ese ruido se propaga: el LLM acertó 10/10 fichas de audio pero solo 5/10 de documentos, porque sobre texto OCR ruidoso inventa temas o confunde emisor y destinatario.
 2. **El ASR funciona en la calle, pero el contexto acústico manda.** Con las mismas tres configuraciones, las frases leídas de OpenSLR tienen WER ≈ 0,06 y las entrevistas en la calle ≈ 0,26; el estadio llega a 0,49–0,88. `large-v3-turbo` (0,21) no mejora de verdad a `small` (0,22) y cuesta el doble de cómputo, por eso se elige `small` en CPU. En quechua de Huaylas Whisper alucina castellano y Meta MMS `qwh` sí produce quechua.
 
-## Limitaciones
+## 6. Limitaciones
 
 1. **Manuscritos y letra pintada a mano.** Ninguno de los dos OCR lee cursiva del siglo XIX ni carteles pintados: en `doc_011`
    PaddleOCR no detectó ninguna línea y en la partida de 1897 generó más caracteres falsos que texto real. Los OCR clásicos también
@@ -60,7 +60,7 @@ El diccionario de reemplazos es privado (`datos/raw/seudonimos.json`, fuera de G
    PaddlePaddle 3.3 en Windows y hubo que desactivarlo) y el ASR corrió cerca del tiempo real. La diarización a veces crea un
    hablante extra por un monosílabo; y el quechua de Huaylas no pudo medirse con WER porque no hay transcripción humana disponible.
 
-## Ejecutar en local
+## 7. Ejecutar en local
 
 ```bash
 cd tarea_2
@@ -71,7 +71,7 @@ streamlit run app.py
 Para regenerar los resultados (no es necesario para ver el dashboard): `uv sync --group docai --group audio`, instalar Tesseract 5
 (`winget install UB-Mannheim.TesseractOCR`), `python corpus.py` y ejecutar los dos notebooks.
 
-## Estructura
+## 8. Estructura
 
 ```
 tarea_2/
@@ -90,13 +90,13 @@ tarea_2/
 └── evidencias_ia/           capturas de la conversación con Claude Code
 ```
 
-## Bitácora
+## 9. Bitácora
 
 Issues del repositorio: *T2 – Parte 1: Corpus y extracción (OCR + ASR)*, *T2 – Parte 2: Evaluación y extracción estructurada*,
 *T2 – Parte 3: Dashboard y despliegue*. La primera versión del trabajo usaba datos simulados; se descartó y se rehízo con corpus
 real (ver `evidencias_ia/`).
 
-## Formato de entrega
+## 10. Formato de entrega
 
 ```
 Tarea 2 – Individual
