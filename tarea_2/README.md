@@ -111,7 +111,7 @@ del LLM (15/20). Todos los modelos (PaddleOCR, Tesseract, faster-whisper, MMS, Q
 ```
 Tarea 2 – Individual
 Fuentes: Wikimedia Commons / OpenSLR 73
-Estudiante: (nombre completo) (@fampueroc)
+Estudiante: Fiorella Ampuero (@fampueroc)
 Dashboard público (obligatorio): https://voces-peruanas-fampueroc.streamlit.app/
 Carpeta del trabajo: https://github.com/fampueroc/Data-Science-Python/tree/main/tarea_2
 Resultados Test: WER: 0.22 | CER: 0.58 | Acuerdo LLM-Humano: 15/20
