@@ -96,7 +96,17 @@ Issues del repositorio: *T2 – Parte 1: Corpus y extracción (OCR + ASR)*, *T2 
 *T2 – Parte 3: Dashboard y despliegue*. La primera versión del trabajo usaba datos simulados; se descartó y se rehízo con corpus
 real (ver `evidencias_ia/`).
 
-## 10. Formato de entrega
+## 10. Uso de IA
+
+El trabajo se desarrolló con apoyo de **Claude Code (Claude Opus)** como asistente de programación; la conversación completa
+está en `evidencias_ia/` (capturas numeradas). La estudiante armó primero un borrador con la estructura de los archivos y luego
+se apoyó en Claude para revisarlo contra el enunciado, corregirlo y rehacerlo con datos reales, entendiendo en el camino cada
+etapa del proceso. La IA ayudó a escribir el código, depurar errores (oneDNN de PaddlePaddle, límites de Commons) y redactar la
+documentación. Las decisiones y la validación fueron humanas: elección de herramientas gratuitas y locales, revisión visual de
+los documentos, transcripción manual de las 15 referencias, validación de la seudonimización y auditoría de las 20 extracciones
+del LLM (15/20). Todos los modelos (PaddleOCR, Tesseract, faster-whisper, MMS, Qwen2.5) corrieron en local, sin APIs de pago.
+
+## 11. Formato de entrega
 
 ```
 Tarea 2 – Individual
